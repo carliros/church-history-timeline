@@ -6,28 +6,23 @@ export function ChurchTimeline() {
 
     const groups = new DataSet([
         {
-          id: 'emperors',
-          content: 'Emperors'
+          id: 'events',
+          content: 'Events'
         },
         {
           id: 'bishops',
           content: 'Bishops'
         },
         {
-          id: 'events',
-          content: 'Events'
+          id: 'emperors',
+          content: 'Emperors'
         }
       ]);
 
     // Create a DataSet (allows two way data-binding)
     const items = new DataSet([
-    {id: 1, content: 'item 1', start: '2014-01-01', group: 'emperors'},
-    {id: 2, content: 'item 2', start: '2015-01-01', group: 'emperors'},
-    {id: 3, content: 'item 3', start: '2016-01-01', group: 'events'},
-    {id: 4, content: 'item 4', start: '2017-01-01', end: '2020-01-01', group: 'bishops'},
-    {id: 5, content: 'item 5', start: '2018-01-01', group: 'events'},
-    {id: 6, content: 'item 6', start: '2014-01-01', type: 'point', group: 'events' },
-
+        {group: 'events', start: '2016-01-01', content: 'Event 1'},
+        {group: 'bishops', start: '2017-01-01', end: '2020-01-01', content: 'Bishop 1'}
     ]);
 
     // Configuration for the Timeline

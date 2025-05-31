@@ -10,8 +10,8 @@ export function ChurchTimeline() {
           content: 'Events'
         },
         {
-          id: 'bishops',
-          content: 'Bishops'
+          id: 'christians',
+          content: 'Christians'
         },
         {
           id: 'emperors',
@@ -86,19 +86,19 @@ export function ChurchTimeline() {
           end: '+000004-01-01',
           content: 'Herod the Great. Roman King of Judea (37-4 BC)'
         }, {
-          group: 'bishops',
+          group: 'christians',
           type: 'range',
           start: '0035-01-01',
           end: '0100-01-01',
           content: 'Clement of Rome (35-100)'
         }, {
-          group: 'bishops',
+          group: 'christians',
           type: 'range',
           start: '0035-01-01',
           end: '0108-01-01',
           content: 'Ignatius of Antioch (35-108)'
         }, {
-          group: 'bishops',
+          group: 'christians',
           type: 'range',
           start: '0069-01-01',
           end: '0155-01-01',
@@ -114,6 +114,42 @@ export function ChurchTimeline() {
           type: 'box',
           start: '0095-01-01',
           content: 'Book 1st Clement (95/96)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '0100-01-01',
+          end: '0165-01-01',
+          content: 'Justin Martyr (100-165)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '0130-01-01',
+          end: '0202-01-01',
+          content: 'Irenaeus of Lyons (130-202)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '0150-01-01',
+          end: '0215-01-01',
+          content: 'Clement of Alexandria(150-215)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '0160-01-01',
+          end: '0225-01-01',
+          content: 'Tertulian (160-225)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '0210-01-01',
+          end: '0258-01-01',
+          content: 'Cyprian of Carthage (210-258)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '0185-01-01',
+          end: '0254-01-01',
+          content: 'Origen (185-254)'
         }, {
           group: 'emperors',
           type: 'range',
@@ -198,6 +234,18 @@ export function ChurchTimeline() {
           start: '0306-01-01',
           end: '0337-01-01',
           content: 'Constantine\'s reign (306-337)'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '0379-01-01',
+          end: '0395-01-01',
+          content: 'Theodosius I reign (379-395)'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '0475-01-01',
+          end: '0476-01-01',
+          content: 'Romulus Augustulus (475-476)'
         },
     ];
 

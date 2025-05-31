@@ -198,6 +198,17 @@ export function ChurchTimeline() {
           className: 'red',
           start: '476-01-01',
           content: 'Fall of West Roman Empire [by Odoacer] (476)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '452-01-01',
+          content: 'Leo the Great liberated Rome from invation of Attila the Hun (452)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '455-01-01',
+          content: 'Leo the Great liberated Rome from Vandal king Gaiseric (455)'
+        
 
         // Christians
         }, {
@@ -325,7 +336,12 @@ export function ChurchTimeline() {
           type: 'range',
           start: '345-01-01',
           end: '420-01-01',
-          content: 'Jerome [Author of the Vullgate] (345-420)'
+          content: 'Jerome [Author of the Vulgate] (345-420)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '405-01-01',
+          content: 'The Vulgate, Latin Bible [by Jerome] (405)'
         }, {
           group: 'christians',
           type: 'range',
@@ -338,10 +354,161 @@ export function ChurchTimeline() {
           start: '440-01-01',
           end: '466-01-01',
           content: 'Leo the Great [Papal supremacy] (440-466)'
-        }
-        
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '540-01-01',
+          end: '604-01-01',
+          content: 'Gregory the Great [Gregory I] (540-604)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '595-01-01',
+          content: 'Gregory the Great negotiate peace with Lombards (595)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '590-01-01',
+          content: 'Book "Pastoral Rule" by Gregory the Great (590)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '595-01-01',
+          content: 'Book "Moralia in Job" by Gregory the Great (595)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '593-01-01',
+          content: 'Book "Dialogues" by Gregory the Great (593)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '800-01-01',
+          end: '867-01-01',
+          content: 'Nicholas the Great [Affirmed papal supremacy] (800-867)'
+        }, {
+          group: 'christians',
+          type: 'point',
+          className: 'text-white',
+          start: '858-01-01',
+          content: 'Nicholas the Great became bishop of Rome (858)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '750-01-01',
+          end: '816-01-01',
+          content: 'Pope Leo III (750-816)'
+        }, {
+          group: 'christians',
+          type: 'point',
+          className: 'text-white',
+          start: '795-01-01',
+          content: 'Pope Leo III became bishop of Rome (795)'
+        }, {
+          group: 'events',
+          type: 'range',
+          start: '800-01-01',
+          end: '1806-01-01',
+          content: 'Holy Roman Empire (800-1806)'
+        }, {
+          group: 'emperor',
+          type: 'range',
+          start: '800-12-25',
+          end: '814-01-01',
+          content: 'Charlemagne\'s reign (800-814)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '800-12-25',
+          content: 'Charlemagne is coronated as king of Rome by Pope Leo III (800)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '480-01-01',
+          end: '547-01-01',
+          content: 'Benedict of Nursia [Father of Western Monasticism] (480-547)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '529-12-25',
+          content: 'Monastery of Monte Cassino [founded by Benedict] (529)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '530-01-01',
+          content: 'Book "Rule of Benedict" (530)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1029-01-01',
+          end: '1111-01-01',
+          content: 'Robert of Molesme [Father of the Cirtercian Order] (1029-1111)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1090-01-01',
+          end: '1153-01-01',
+          content: 'Bernard of Clairvaux [Expansion of Cistercian order] (1090-1153)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1182-01-01',
+          end: '1226-01-01',
+          content: 'Francis of Assisi [Founder of Franciscan order] (1182-1226)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1161-01-01',
+          end: '1216-01-01',
+          content: 'Pope Innocent III (1161-1216)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1170-01-01',
+          end: '1221-01-01',
+          content: 'Dominic de Guzmán [Founder of the Dominican order, order of preachers] (1170-1221)'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '481-01-01',
+          end: '511-01-01',
+          content: 'King of the Franks (481-511)'
+        }, {
+          group: 'events',
+          type: 'point',
+          start: '496-01-01',
+          content: 'King Clovis I adopted christianity (496)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '389-01-01',
+          end: '461-01-01',
+          content: 'Patrick [The Apostle to Ireland] (389-461)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '389-01-01',
+          end: '461-01-01',
+          content: 'Patrick [The Apostle to Ireland] (389-461)'
+        }, {
+          group: 'christians',
+          type: 'point',
+          start: '432-01-01',
+          content: 'Patrick went back to Ireland as missionary (432)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '521-01-01',
+          end: '597-01-01',
+          content: 'Columba [The Apostle to Scotland] (521-597)'
+        }, {
+          group: 'christians',
+          type: 'point',
+          start: '563-01-01',
+          content: 'Columba went to Scotland to evangelize (563)'
+
         // EMPERORS
-        , {
+        }, {
           group: 'emperors',
           type: 'range',
           start: '+000054-01-01',
@@ -447,7 +614,8 @@ export function ChurchTimeline() {
     // Configuration for the Timeline
     const options = {
         width: '100%',
-        height: '40em',
+        height: '90vh',
+
         format: {
             minorLabels: {
                 month: ''

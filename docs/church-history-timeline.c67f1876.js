@@ -689,11 +689,13 @@ function ChurchTimeline() {
         }
     ]);
     const events = [
+        // EVENTS 
         {
             group: 'events',
             type: 'box',
             start: '-000333-01-01',
-            content: 'Near East conquered by Alexander the Great (333 BC)'
+            content: 'Near East conquered by Alexander the Great (333 BC)',
+            desc: 'DESCRIPTION'
         },
         {
             group: 'events',
@@ -709,8 +711,8 @@ function ChurchTimeline() {
             content: '2nd Temple rebuild/enhanced by Herod the Great (20-18 BC)'
         },
         {
-            group: 'events',
-            type: 'background',
+            group: 'christians',
+            type: 'range',
             start: '+000030-01-01',
             end: '+000033-01-01',
             content: 'Jesus\' ministry (30-33)'
@@ -741,7 +743,8 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'background',
+            type: 'range',
+            className: 'red',
             start: '+000066-01-01',
             end: '+000070-01-01',
             content: 'First Jewish revolt to Roman forces (66-70)'
@@ -754,7 +757,8 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'background',
+            type: 'range',
+            className: 'yellow-green',
             start: '+000050-01-01',
             end: '+000100-01-01',
             content: 'New Testament writing (50-100)'
@@ -801,6 +805,100 @@ function ChurchTimeline() {
             content: 'Book 1st Clement (95/96)'
         },
         {
+            group: 'events',
+            type: 'box',
+            className: 'yellow-green',
+            start: '313-01-01',
+            content: 'Edict of Milan (313)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            className: 'green',
+            start: '325-01-01',
+            content: 'Council of Nicaea (325)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '336-01-01',
+            content: 'Declared Christmas day to be Dic/25th (336)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '380-01-01',
+            content: 'Edict of Thessalonica (380)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            className: 'green',
+            start: '381-01-01',
+            content: 'Council of Constantinople (381)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            className: 'green',
+            start: '390-01-01',
+            content: 'Council of Milan [Apostles\' creed] (390)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            className: 'green',
+            start: '393-01-01',
+            content: 'Council of Hippo (393)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            className: 'green',
+            start: '397-01-01',
+            content: 'Council of Carthage [Cannon of NT] (397)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            className: 'green',
+            start: '431-01-01',
+            content: 'Council of Ephesus (431)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            className: 'green',
+            start: '451-01-01',
+            content: 'Council of Chalcedon (451)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '449-01-01',
+            content: 'Tome of Leo the Great (449)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            className: 'red',
+            start: '410-01-01',
+            content: 'Sack of Rome [by Alaric, Visigoths] (410)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '445-01-01',
+            content: 'Edict of papal authority (445)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            className: 'red',
+            start: '476-01-01',
+            content: 'Fall of West Roman Empire [by Odoacer] (476)'
+        },
+        {
             group: 'christians',
             type: 'range',
             start: '0100-01-01',
@@ -841,6 +939,125 @@ function ChurchTimeline() {
             start: '0185-01-01',
             end: '0254-01-01',
             content: 'Origen (185-254)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '0251-01-01',
+            end: '0356-01-01',
+            content: 'St. Anthony (251-356)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '0260-01-01',
+            end: '0340-01-01',
+            content: 'Eusebius of Caesarea [The historian] (260-340)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '0290-01-01',
+            end: '0348-01-01',
+            content: 'St. Pachomius (290-348)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '0313-01-01',
+            end: '0326-01-01',
+            content: 'Alexander of Alexandria [Bishop] (290-348)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '0293-01-01',
+            end: '0373-01-01',
+            content: 'Athanasius of Alexandria [Deacon, Bishop] (293-373)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '347-01-01',
+            end: '407-01-01',
+            content: 'Jhon Chrysostom [Preacher] (347-407)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '330-01-01',
+            end: '379-01-01',
+            content: 'Basil the Great of Caesarea [Cappadocian Father] (330-379)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '329-01-01',
+            end: '390-01-01',
+            content: 'Gregory of Nazianzuz [Cappadocian Father] (329-390)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '335-01-01',
+            end: '394-01-01',
+            content: 'Gregory of Nyssa [Cappadocian Father] (335-394)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '390-01-01',
+            end: '459-01-01',
+            content: 'Simeon Stylites (390-459)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '375-01-01',
+            end: '444-01-01',
+            content: 'Cyril of Alexandria (375-444)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '366-01-01',
+            end: '384-01-01',
+            content: 'Bishop Damasus I [Development of papacy] (366-384)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '334-01-01',
+            end: '399-01-01',
+            content: 'Pope Siricius [First called pope] (334-399)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '339-01-01',
+            end: '397-01-01',
+            content: 'Ambrose of Milan [Moral authoriry over emperor] (339-397)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '345-01-01',
+            end: '420-01-01',
+            content: 'Jerome [Author of the Vullgate] (345-420)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '354-01-01',
+            end: '430-01-01',
+            content: 'Augustine of Hippo [Writter] (354-430)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '440-01-01',
+            end: '466-01-01',
+            content: 'Leo the Great [Papal supremacy] (440-466)'
         },
         {
             group: 'emperors',
@@ -929,6 +1146,7 @@ function ChurchTimeline() {
         {
             group: 'events',
             type: 'range',
+            className: 'red',
             start: '0303-01-01',
             end: '0311-01-01',
             content: 'Great Persecution (303-311)'

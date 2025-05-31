@@ -5,3 +5,21 @@ html {
   justify-content: center;
   height: 100%;
 }
+
+.red {
+  background-color: red !important;
+  border-color: red !important;
+  color: white !important;
+}
+
+.yellow-green {
+  background-color: yellowgreen !important;
+  border-color: yellowgreen !important;
+  color: black !important;
+}
+
+.green {
+  background-color: green !important;
+  border-color: green !important;
+  color: white !important;
+}

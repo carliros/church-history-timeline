@@ -5,4 +5,22 @@ html {
   height: 100%;
   font-family: system-ui;
 }
+
+.red {
+  color: #fff !important;
+  background-color: red !important;
+  border-color: red !important;
+}
+
+.yellow-green {
+  color: #000 !important;
+  background-color: #9acd32 !important;
+  border-color: #9acd32 !important;
+}
+
+.green {
+  color: #fff !important;
+  background-color: green !important;
+  border-color: green !important;
+}
 /*# sourceMappingURL=church-history-timeline.2cdaf7bc.css.map */

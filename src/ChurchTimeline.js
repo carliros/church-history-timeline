@@ -556,13 +556,49 @@ export function ChurchTimeline() {
           type: 'range',
           start: '726-01-01',
           end: '843-01-01',
-          content: 'The iconocllast controversy (726-843)'
+          content: 'The iconoclast controversy (726-843)'
          }, {
           group: 'events',
           type: 'point',
           className: 'text-white',
           start: '726-01-01',
-          content: 'Leo III removed a larga Christ icon from Chalke Gate (726)'
+          content: 'Leo III removed a large Christ icon from Chalke Gate [Starts iconoclas controversy] (726)'
+        }, {
+          group: 'events',
+          type: 'point',
+          className: 'text-white',
+          start: '843-01-01',
+          content: 'Empress Theodora restored veneration of icons [Ends iconoclast controversy] (843)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '580-01-01',
+          end: '662-01-01',
+          content: 'Maximus the Confessor (580-662)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '675-01-01',
+          end: '749-01-01',
+          content: 'John of Damascus (John Mansour) [Theologian of Theosis and Christ\'s two wills and defender of icons] (675-749)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '815-01-01',
+          end: '893-01-01',
+          content: 'Photius the Great [Architech of the Photian Schism and Defender of Eastern Orthodoxy] (815-893)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '827-01-01',
+          end: '869-01-01',
+          content: 'Cyril [The Apostle of the Slavs and pioneer of Slavic literacy] (826-869)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '825-01-01',
+          end: '885-01-01',
+          content: 'Methodius [The Apostle of the Slavs and pioneer of Slavic literacy] (825-885)'
 
         // EMPERORS
         }, {
@@ -674,6 +710,38 @@ export function ChurchTimeline() {
           start: '741-01-01',
           end: '775-01-01',
           content: 'Constantine V (741-775)'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '797-01-01',
+          end: '802-01-01',
+          content: 'Empress Irene [regent for Constantine VI] (741-775)'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '813-01-01',
+          end: '820-01-01',
+          content: 'Leo V [regent for Constantine VI] (741-775)'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '527-01-01',
+          end: '565-01-01',
+          content: 'Justinian I [Architect of the Byzantine empire and restorer of Rome] (527-565)'
+        }, {
+          group: 'events',
+          type: 'point',
+          className: 'text-white',
+          start: '537-01-01',
+          content: 'Completion of Hagia Sophia (537)'
+        }, {
+          group: 'events',
+          type: 'point',
+          className: 'text-white',
+          start: '532-01-01',
+          content: 'Nika riots [Destruction of Constantinople] (537)'
+        
+
         },
     ];
 

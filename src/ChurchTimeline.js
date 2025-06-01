@@ -476,6 +476,7 @@ export function ChurchTimeline() {
         }, {
           group: 'events',
           type: 'point',
+          className: 'text-white',
           start: '496-01-01',
           content: 'King Clovis I adopted christianity (496)'
         }, {
@@ -491,8 +492,9 @@ export function ChurchTimeline() {
           end: '461-01-01',
           content: 'Patrick [The Apostle to Ireland] (389-461)'
         }, {
-          group: 'christians',
+          group: 'events',
           type: 'point',
+          className: 'text-white',
           start: '432-01-01',
           content: 'Patrick went back to Ireland as missionary (432)'
         }, {
@@ -502,10 +504,65 @@ export function ChurchTimeline() {
           end: '597-01-01',
           content: 'Columba [The Apostle to Scotland] (521-597)'
         }, {
-          group: 'christians',
+          group: 'events',
           type: 'point',
+          className: 'text-white',
           start: '563-01-01',
           content: 'Columba went to Scotland to evangelize (563)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '543-01-01',
+          end: '615-01-01',
+          content: 'Columbanus [The Apostle to the Gauls] (543-615)'
+        }, {
+          group: 'events',
+          type: 'point',
+          className: 'text-white',
+          start: '590-01-01',
+          content: 'Columbanus went to Merovingian Gaul, Switzerland to evangelize (590)'
+        }, {
+          group: 'events',
+          type: 'point',
+          className: 'text-white',
+          start: '663-01-01',
+          content: 'Synod of Whitby [English and Roman christianity got united] (663)'
+        }, {
+          group: 'events',
+          type: 'point',
+          className: 'text-white',
+          start: '589-01-01',
+          content: 'Third Council of Toledo [King Recared renounced Arianism] (589)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '675-01-01',
+          end: '754-01-01',
+          content: 'Boniface [The Apostle to the Germans] (675-754)'
+        }, {
+          group: 'events',
+          type: 'point',
+          className: 'text-white',
+          start: '718-01-01',
+          content: 'Boniface received his papal commission as a missionary (718)'
+        }, {
+          group: 'events',
+          type: 'point',
+          className: 'text-white',
+          start: '787-01-01',
+          content: 'Second Council of Nicaea [Restoration of icons] (787)'
+        }, {
+          group: 'events',
+          type: 'range',
+          start: '726-01-01',
+          end: '843-01-01',
+          content: 'The iconocllast controversy (726-843)'
+         }, {
+          group: 'events',
+          type: 'point',
+          className: 'text-white',
+          start: '726-01-01',
+          content: 'Leo III removed a larga Christ icon from Chalke Gate (726)'
 
         // EMPERORS
         }, {
@@ -605,6 +662,18 @@ export function ChurchTimeline() {
           start: '0475-01-01',
           end: '0476-01-01',
           content: 'Romulus Augustulus (475-476)'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '717-01-01',
+          end: '741-01-01',
+          content: 'Leo III (717-741)'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '741-01-01',
+          end: '775-01-01',
+          content: 'Constantine V (741-775)'
         },
     ];
 

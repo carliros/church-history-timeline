@@ -1134,7 +1134,7 @@ export function ChurchTimeline() {
     const options = {
         width: '100%',
         height: '90vh',
-
+        verticalScroll: true,
         format: {
             minorLabels: {
                 month: ''

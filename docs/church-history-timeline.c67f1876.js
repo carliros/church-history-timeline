@@ -692,20 +692,22 @@ function ChurchTimeline() {
         // EVENTS 
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '-000333-01-01',
             content: 'Near East conquered by Alexander the Great (333 BC)',
             desc: 'DESCRIPTION'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '-000063-01-01',
             content: 'Judea became a Roman province (63 BC)'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'range',
             start: '-000020-01-01',
             end: '-000018-12-01',
             content: '2nd Temple rebuild/enhanced by Herod the Great (20-18 BC)'
@@ -719,25 +721,29 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '+000033-02-01',
             content: 'Pentecost (33)'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '+000033-05-01',
             content: 'Paul\'s conversion (33)'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '+000049-01-01',
             content: 'First council in Jerusalem (49)'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '+000064-01-01',
             content: 'Christians were accused of ignite the city (64)'
         },
@@ -751,7 +757,8 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '+000070-01-01',
             content: 'Fall of Jerusalem. \nDestruction of the 2nd Temple by General Titus (70)'
         },
@@ -800,7 +807,8 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '0095-01-01',
             content: 'Book 1st Clement (95/96)'
         },
@@ -820,13 +828,15 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '336-01-01',
             content: 'Declared Christmas day to be Dic/25th (336)'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '380-01-01',
             content: 'Edict of Thessalonica (380)'
         },
@@ -874,9 +884,10 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '449-01-01',
-            content: 'Tome of Leo the Great (449)'
+            content: 'Letter "Tome" of Leo the Great (449)'
         },
         {
             group: 'events',
@@ -887,7 +898,8 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '445-01-01',
             content: 'Edict of papal authority (445)'
         },
@@ -900,13 +912,15 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '452-01-01',
             content: 'Leo the Great liberated Rome from invation of Attila the Hun (452)'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '455-01-01',
             content: 'Leo the Great liberated Rome from Vandal king Gaiseric (455)'
         },
@@ -1059,7 +1073,8 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '405-01-01',
             content: 'The Vulgate, Latin Bible [by Jerome] (405)'
         },
@@ -1086,25 +1101,29 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '595-01-01',
             content: 'Gregory the Great negotiate peace with Lombards (595)'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '590-01-01',
             content: 'Book "Pastoral Rule" by Gregory the Great (590)'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '595-01-01',
             content: 'Book "Moralia in Job" by Gregory the Great (595)'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '593-01-01',
             content: 'Book "Dialogues" by Gregory the Great (593)'
         },
@@ -1152,7 +1171,8 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '800-12-25',
             content: 'Charlemagne is coronated as king of Rome by Pope Leo III (800)'
         },
@@ -1165,13 +1185,15 @@ function ChurchTimeline() {
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '529-12-25',
             content: 'Monastery of Monte Cassino [founded by Benedict] (529)'
         },
         {
             group: 'events',
-            type: 'box',
+            type: 'point',
+            className: 'text-white',
             start: '530-01-01',
             content: 'Book "Rule of Benedict" (530)'
         },
@@ -1665,6 +1687,104 @@ function ChurchTimeline() {
             content: 'Byzantine Emperor Alexius I (1081-1118)'
         },
         {
+            group: 'christians',
+            type: 'range',
+            start: '1225-01-01',
+            end: '1274-01-01',
+            content: 'Thomas Aquinas [The Angelic Doctor] (1225-1274)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '1230-01-01',
+            content: 'Thomas Aquinas became monk of the Benedictine Abbey of Monte Cassino [at the age of 5th] (1230)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '1239-01-01',
+            content: 'Thomas Aquinas went to the university (1239)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '1252-01-01',
+            content: 'Thomas Aquinas became professor at university (1252)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '1277-01-01',
+            content: 'The University of Paris condemned Thomas Aquinas\' teachings [However, the Council of Trent used them and Pope Leo XIII formally endorsed in 1879] (1277)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            start: '1265-01-01',
+            end: '1273-01-01',
+            content: 'Book Summa Theologiae [it was written during that time] (1265-1273)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            start: '1259-01-01',
+            end: '1265-01-01',
+            content: 'Book Summa Contra Gentiles [it was written during that time] (1265-1273)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1033-01-01',
+            end: '1109-01-01',
+            content: 'Anselm of Canterbury [Magnificent Doctor and Father of Scholasticism] (1033-1109)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1079-01-01',
+            end: '1142-01-01',
+            content: 'Peter Abelard [Teacher of Paris and Author of Sic et Non] (1079-1142)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1096-01-01',
+            end: '1160-01-01',
+            content: 'Peter Lombard [Master of the Sentences and Systematic Theology] (1096-1160)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1200-01-01',
+            end: '1280-01-01',
+            content: 'Albertus Magnus [Doctor Universalis and the Synthesis of Faith and Reason] (1200-1280)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1221-01-01',
+            end: '1274-01-01',
+            content: 'Bonaventure [Mystic scholar and leader of the Franciscan tradition] (1221-1274)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1266-01-01',
+            end: '1308-01-01',
+            content: 'John Duns Scotus [Marian Theologian and Philosopher of Individuality] (1266-1308)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1287-01-01',
+            end: '1347-01-01',
+            content: 'William of Ockham [Father of Nominailsm and Modern Epistemology] (1287-1347)'
+        },
+        {
             group: 'emperors',
             type: 'range',
             start: '+000054-01-01',
@@ -1825,6 +1945,27 @@ function ChurchTimeline() {
             className: 'text-white',
             start: '532-01-01',
             content: 'Nika riots [Destruction of Constantinople] (537)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '890-01-01',
+            content: 'University of Bologna [First university, initially as Law School in 890 and recognized formally in 1155] (890)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '1150-01-01',
+            content: 'University of Paris [Second university] (1150)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            start: '1150-01-01',
+            end: '1300-01-01',
+            content: 'Period of High Scholasticism (1150-1300)'
         }
     ];
     // Create a DataSet (allows two way data-binding)
@@ -1835,6 +1976,7 @@ function ChurchTimeline() {
     const options = {
         width: '100%',
         height: '90vh',
+        verticalScroll: true,
         format: {
             minorLabels: {
                 month: ''

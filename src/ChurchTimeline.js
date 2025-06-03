@@ -23,18 +23,20 @@ export function ChurchTimeline() {
         // EVENTS 
         {
           group: 'events', 
-          type: 'box', 
+          type: 'point',
+          className: 'text-white', 
           start: '-000333-01-01', 
           content: 'Near East conquered by Alexander the Great (333 BC)',
           desc: 'DESCRIPTION'
         }, { 
           group: 'events', 
-          type: 'box', 
+          type: 'point',
+          className: 'text-white',
           start: '-000063-01-01', 
           content: 'Judea became a Roman province (63 BC)'
         }, {
           group: 'events', 
-          type: 'box', 
+          type: 'range', 
           start: '-000020-01-01', 
           end: '-000018-12-01', 
           content: '2nd Temple rebuild/enhanced by Herod the Great (20-18 BC)'
@@ -46,22 +48,26 @@ export function ChurchTimeline() {
           content: 'Jesus\' ministry (30-33)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '+000033-02-01',
           content: 'Pentecost (33)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '+000033-05-01',
           content: 'Paul\'s conversion (33)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '+000049-01-01',
           content: 'First council in Jerusalem (49)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '+000064-01-01',
           content: 'Christians were accused of ignite the city (64)'
         }, {
@@ -73,7 +79,8 @@ export function ChurchTimeline() {
           content: 'First Jewish revolt to Roman forces (66-70)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '+000070-01-01',
           content: 'Fall of Jerusalem. \nDestruction of the 2nd Temple by General Titus (70)'
         }, {
@@ -115,7 +122,8 @@ export function ChurchTimeline() {
           content: 'The Shepherd of Hermas (written between 90-150)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '0095-01-01',
           content: 'Book 1st Clement (95/96)'
         }, {
@@ -132,12 +140,14 @@ export function ChurchTimeline() {
           content: 'Council of Nicaea (325)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '336-01-01',
           content: 'Declared Christmas day to be Dic/25th (336)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '380-01-01',
           content: 'Edict of Thessalonica (380)'
         }, {
@@ -178,9 +188,10 @@ export function ChurchTimeline() {
           content: 'Council of Chalcedon (451)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '449-01-01',
-          content: 'Tome of Leo the Great (449)'
+          content: 'Letter "Tome" of Leo the Great (449)'
         }, {
           group: 'events',
           type: 'box',
@@ -189,7 +200,8 @@ export function ChurchTimeline() {
           content: 'Sack of Rome [by Alaric, Visigoths] (410)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '445-01-01',
           content: 'Edict of papal authority (445)'
         }, {
@@ -200,12 +212,14 @@ export function ChurchTimeline() {
           content: 'Fall of West Roman Empire [by Odoacer] (476)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '452-01-01',
           content: 'Leo the Great liberated Rome from invation of Attila the Hun (452)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '455-01-01',
           content: 'Leo the Great liberated Rome from Vandal king Gaiseric (455)'
         
@@ -339,7 +353,8 @@ export function ChurchTimeline() {
           content: 'Jerome [Author of the Vulgate] (345-420)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '405-01-01',
           content: 'The Vulgate, Latin Bible [by Jerome] (405)'
         }, {
@@ -362,22 +377,26 @@ export function ChurchTimeline() {
           content: 'Gregory the Great [Gregory I] (540-604)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '595-01-01',
           content: 'Gregory the Great negotiate peace with Lombards (595)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '590-01-01',
           content: 'Book "Pastoral Rule" by Gregory the Great (590)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '595-01-01',
           content: 'Book "Moralia in Job" by Gregory the Great (595)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '593-01-01',
           content: 'Book "Dialogues" by Gregory the Great (593)'
         }, {
@@ -418,7 +437,8 @@ export function ChurchTimeline() {
           content: 'Charlemagne\'s reign (800-814)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '800-12-25',
           content: 'Charlemagne is coronated as king of Rome by Pope Leo III (800)'
         }, {
@@ -429,12 +449,14 @@ export function ChurchTimeline() {
           content: 'Benedict of Nursia [Father of Western Monasticism] (480-547)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '529-12-25',
           content: 'Monastery of Monte Cassino [founded by Benedict] (529)'
         }, {
           group: 'events',
-          type: 'box',
+          type: 'point',
+          className: 'text-white',
           start: '530-01-01',
           content: 'Book "Rule of Benedict" (530)'
         }, {

@@ -899,6 +899,18 @@ function ChurchTimeline() {
             content: 'Fall of West Roman Empire [by Odoacer] (476)'
         },
         {
+            group: 'events',
+            type: 'box',
+            start: '452-01-01',
+            content: 'Leo the Great liberated Rome from invation of Attila the Hun (452)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '455-01-01',
+            content: 'Leo the Great liberated Rome from Vandal king Gaiseric (455)'
+        },
+        {
             group: 'christians',
             type: 'range',
             start: '0100-01-01',
@@ -1043,7 +1055,13 @@ function ChurchTimeline() {
             type: 'range',
             start: '345-01-01',
             end: '420-01-01',
-            content: 'Jerome [Author of the Vullgate] (345-420)'
+            content: 'Jerome [Author of the Vulgate] (345-420)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '405-01-01',
+            content: 'The Vulgate, Latin Bible [by Jerome] (405)'
         },
         {
             group: 'christians',
@@ -1058,6 +1076,593 @@ function ChurchTimeline() {
             start: '440-01-01',
             end: '466-01-01',
             content: 'Leo the Great [Papal supremacy] (440-466)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '540-01-01',
+            end: '604-01-01',
+            content: 'Gregory the Great [Gregory I] (540-604)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '595-01-01',
+            content: 'Gregory the Great negotiate peace with Lombards (595)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '590-01-01',
+            content: 'Book "Pastoral Rule" by Gregory the Great (590)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '595-01-01',
+            content: 'Book "Moralia in Job" by Gregory the Great (595)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '593-01-01',
+            content: 'Book "Dialogues" by Gregory the Great (593)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '800-01-01',
+            end: '867-01-01',
+            content: 'Nicholas the Great [Affirmed papal supremacy] (800-867)'
+        },
+        {
+            group: 'christians',
+            type: 'point',
+            className: 'text-white',
+            start: '858-01-01',
+            content: 'Nicholas the Great became bishop of Rome (858)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '750-01-01',
+            end: '816-01-01',
+            content: 'Pope Leo III (750-816)'
+        },
+        {
+            group: 'christians',
+            type: 'point',
+            className: 'text-white',
+            start: '795-01-01',
+            content: 'Pope Leo III became bishop of Rome (795)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            start: '800-01-01',
+            end: '1806-01-01',
+            content: 'Holy Roman Empire (800-1806)'
+        },
+        {
+            group: 'emperor',
+            type: 'range',
+            start: '800-12-25',
+            end: '814-01-01',
+            content: 'Charlemagne\'s reign (800-814)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '800-12-25',
+            content: 'Charlemagne is coronated as king of Rome by Pope Leo III (800)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '480-01-01',
+            end: '547-01-01',
+            content: 'Benedict of Nursia [Father of Western Monasticism] (480-547)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '529-12-25',
+            content: 'Monastery of Monte Cassino [founded by Benedict] (529)'
+        },
+        {
+            group: 'events',
+            type: 'box',
+            start: '530-01-01',
+            content: 'Book "Rule of Benedict" (530)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1029-01-01',
+            end: '1111-01-01',
+            content: 'Robert of Molesme [Father of the Cirtercian Order] (1029-1111)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1090-01-01',
+            end: '1153-01-01',
+            content: 'Bernard of Clairvaux [Expansion of Cistercian order] (1090-1153)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1182-01-01',
+            end: '1226-01-01',
+            content: 'Francis of Assisi [Founder of Franciscan order] (1182-1226)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1161-01-01',
+            end: '1216-01-01',
+            content: 'Pope Innocent III (1161-1216)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1170-01-01',
+            end: '1221-01-01',
+            content: "Dominic de Guzm\xe1n [Founder of the Dominican order, order of preachers] (1170-1221)"
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '481-01-01',
+            end: '511-01-01',
+            content: 'King of the Franks (481-511)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '496-01-01',
+            content: 'King Clovis I adopted christianity (496)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '389-01-01',
+            end: '461-01-01',
+            content: 'Patrick [The Apostle to Ireland] (389-461)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '389-01-01',
+            end: '461-01-01',
+            content: 'Patrick [The Apostle to Ireland] (389-461)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '432-01-01',
+            content: 'Patrick went back to Ireland as missionary (432)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '521-01-01',
+            end: '597-01-01',
+            content: 'Columba [The Apostle to Scotland] (521-597)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '563-01-01',
+            content: 'Columba went to Scotland to evangelize (563)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '543-01-01',
+            end: '615-01-01',
+            content: 'Columbanus [The Apostle to the Gauls] (543-615)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '590-01-01',
+            content: 'Columbanus went to Merovingian Gaul, Switzerland to evangelize (590)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '663-01-01',
+            content: 'Synod of Whitby [English and Roman christianity got united] (663)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '589-01-01',
+            content: 'Third Council of Toledo [King Recared renounced Arianism] (589)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '675-01-01',
+            end: '754-01-01',
+            content: 'Boniface [The Apostle to the Germans] (675-754)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '718-01-01',
+            content: 'Boniface received his papal commission as a missionary (718)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '787-01-01',
+            content: 'Second Council of Nicaea [Restoration of icons] (787)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            start: '726-01-01',
+            end: '843-01-01',
+            content: 'The iconoclast controversy (726-843)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '726-01-01',
+            content: 'Leo III removed a large Christ icon from Chalke Gate [Starts iconoclas controversy] (726)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '843-01-01',
+            content: 'Empress Theodora restored veneration of icons [Ends iconoclast controversy] (843)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '580-01-01',
+            end: '662-01-01',
+            content: 'Maximus the Confessor (580-662)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '675-01-01',
+            end: '749-01-01',
+            content: 'John of Damascus (John Mansour) [Theologian of Theosis and Christ\'s two wills and defender of icons] (675-749)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '815-01-01',
+            end: '893-01-01',
+            content: 'Photius the Great [Architech of the Photian Schism and Defender of Eastern Orthodoxy] (815-893)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '827-01-01',
+            end: '869-01-01',
+            content: 'Cyril [The Apostle of the Slavs and pioneer of Slavic literacy] (826-869)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '825-01-01',
+            end: '885-01-01',
+            content: 'Methodius [The Apostle of the Slavs and pioneer of Slavic literacy] (825-885)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            start: '570-01-01',
+            end: '632-01-01',
+            content: 'Muhammad [Founder of Islam] (570-632)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '632-01-01',
+            content: 'Muhammad\'s death [Marks the rapid rise of Islam] (632)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '732-01-01',
+            content: 'Battle of Tours [Charles Martel halted the Muslim invasion into France] (732)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '638-01-01',
+            content: 'Muslims invaded Jerusalen [Marked the end of christian domination in the Holy land] (638)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '1054-01-01',
+            content: 'The Great Schism [Cardinal Humbert placed a bull of excommunication on Hagia Sphia\'s altar] (1054)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            className: 'red',
+            start: '484-01-01',
+            end: '519-01-01',
+            content: 'Acacian Schism (484-519)'
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '474-01-01',
+            end: '491-01-01',
+            content: 'Emperor Zeno (474-491)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '483-01-01',
+            end: '493-01-01',
+            content: 'Pope Felix III (483-492)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '472-01-01',
+            end: '489-01-01',
+            content: 'Acacius of Constantinople (472-489)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '484-01-01',
+            content: 'Felix III excommunicated Zeno and Acacius of Constantinople [Started Acacian Schism] (484)'
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '518-01-01',
+            end: '527-01-01',
+            content: 'Emperor Justin I (518-527)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '530-01-01',
+            end: '548-01-01',
+            content: 'Patriarchy John of Cappadocia (530-548)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '450-01-01',
+            end: '523-01-01',
+            content: 'Pope Hormisdas (450-523)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '519-01-01',
+            content: 'Constantinople and Rome signed the Formula of Hormisdas [Ended Acacian Schism] (519)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            start: '863-01-01',
+            end: '867-01-01',
+            content: 'The Photian Schism (863-865)'
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '842-01-01',
+            end: '867-01-01',
+            content: 'Byzantine Emperor Michael III (842-867)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '798-01-01',
+            end: '877-01-01',
+            content: 'Ignatius of Constantinople (798-877)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '800-01-01',
+            end: '867-01-01',
+            content: 'Pope Nicholas I (800-867)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '815-01-01',
+            end: '893-01-01',
+            content: 'Patriarch Photius I of Constantinople (815-893)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            start: '863-01-01',
+            content: 'Photius got excommunicated by Pope Nicholas I [Start of Photian Schism] (863)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '867-01-01',
+            content: 'Photius was deposed by Basil I and Ignatius of Constantinople is reinstated [End of Photian Schism] (867)'
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '867-01-01',
+            end: '886-01-01',
+            content: 'Emperor Basil I (867-886)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '867-01-01',
+            content: 'Emperor Michael III got assassinated (867)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '872-01-01',
+            end: '882-01-01',
+            content: 'Pope John VIII (872-882)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '877-01-01',
+            end: '886-01-01',
+            content: 'Patriarch 2nd time of Photius I (877-886)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '589-01-01',
+            content: 'Third Council of Toledo [First time mentioned Filioque to combar Arianism] (867)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '809-01-01',
+            content: 'Synod of Aachen [Filioque is formally adopted in West] (867)'
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '1014-01-01',
+            end: '1020-01-01',
+            content: 'Emperor Henry II (1014-1020)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '1014-01-01',
+            content: 'Inscription of original Nicene creed with Filioque [Marks the official adoption of Filioque in West] (1014)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1043-01-01',
+            end: '1059-01-01',
+            content: 'Patriarch Michael Cerularius of Constantine (1043-1059)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1049-01-01',
+            end: '1054-01-01',
+            content: 'Pope Leo IX of Rome (1049-1054)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '1082-01-01',
+            content: 'Massacre of latin traders in Constantinople [Deepened the Great Schism] (1082)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '1204-01-01',
+            content: 'Constantinople was sacked in fourth crusade [Deepened the Great Schism] (1204)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            className: 'red',
+            start: '1096-01-01',
+            end: '1099-01-01',
+            content: 'First Crusade [Succeded to retrieve Jerusalem] (1096-1099)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            className: 'red',
+            start: '1147-01-01',
+            end: '1149-01-01',
+            content: 'Second Crusade [Failed] (1147-1149)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            className: 'red',
+            start: '1189-01-01',
+            end: '1192-01-01',
+            content: 'Third Crusade [Failed] (1189-1192)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            className: 'red',
+            start: '1202-01-01',
+            end: '1204-01-01',
+            content: 'Fourth Crusade [Failed] (1202-1204)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            className: 'red',
+            start: '1217-01-01',
+            end: '1221-01-01',
+            content: 'Fifth Crusade [Failed] (1217-1221)'
+        },
+        {
+            group: 'events',
+            type: 'range',
+            className: 'red',
+            start: '1228-01-01',
+            end: '1229-01-01',
+            content: 'Sixth Crusade [Achieved temporary diplimatic success by lost in 1244] (1217-1221)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '1095-01-01',
+            content: 'Council of Clermont [Pope Urban II urged to retrieve the Holy Lands and marked the begining of the crusades with phrase "God wills it"] (1095)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1088-01-01',
+            end: '1099-01-01',
+            content: 'Pope Urban II (1088-1099)'
+        },
+        {
+            group: 'christians',
+            type: 'range',
+            start: '1081-01-01',
+            end: '1118-01-01',
+            content: 'Byzantine Emperor Alexius I (1081-1118)'
         },
         {
             group: 'emperors',
@@ -1171,6 +1776,55 @@ function ChurchTimeline() {
             start: '0475-01-01',
             end: '0476-01-01',
             content: 'Romulus Augustulus (475-476)'
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '717-01-01',
+            end: '741-01-01',
+            content: 'Leo III (717-741)'
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '741-01-01',
+            end: '775-01-01',
+            content: 'Constantine V (741-775)'
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '797-01-01',
+            end: '802-01-01',
+            content: 'Empress Irene [regent for Constantine VI] (741-775)'
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '813-01-01',
+            end: '820-01-01',
+            content: 'Leo V [regent for Constantine VI] (741-775)'
+        },
+        {
+            group: 'emperors',
+            type: 'range',
+            start: '527-01-01',
+            end: '565-01-01',
+            content: 'Justinian I [Architect of the Byzantine empire and restorer of Rome] (527-565)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '537-01-01',
+            content: 'Completion of Hagia Sophia (537)'
+        },
+        {
+            group: 'events',
+            type: 'point',
+            className: 'text-white',
+            start: '532-01-01',
+            content: 'Nika riots [Destruction of Constantinople] (537)'
         }
     ];
     // Create a DataSet (allows two way data-binding)
@@ -1180,7 +1834,7 @@ function ChurchTimeline() {
     // Configuration for the Timeline
     const options = {
         width: '100%',
-        height: '40em',
+        height: '90vh',
         format: {
             minorLabels: {
                 month: ''

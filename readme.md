@@ -7,3 +7,15 @@ https://visjs.github.io/vis-timeline/docs/timeline/
 
 ## Examples
 https://visjs.github.io/vis-timeline/examples/timeline/styling/customCss.html
+
+## How to start
+
+```
+yarn start
+```
+
+## How to build
+
+```
+yarn build
+```

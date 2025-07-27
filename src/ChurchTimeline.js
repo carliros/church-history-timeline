@@ -23,15 +23,13 @@ export function ChurchTimeline() {
         // EVENTS 
         {
           group: 'events', 
-          type: 'point',
-          className: 'text-white', 
+          type: 'box',
           start: '-000333-01-01', 
           content: 'Near East conquered by Alexander the Great (333 BC)',
           desc: 'DESCRIPTION'
         }, { 
           group: 'events', 
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '-000063-01-01', 
           content: 'Judea became a Roman province (63 BC)'
         }, {
@@ -48,26 +46,22 @@ export function ChurchTimeline() {
           content: 'Jesus\' ministry (30-33)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '+000033-02-01',
           content: 'Pentecost (33)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '+000033-05-01',
           content: 'Paul\'s conversion (33)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '+000049-01-01',
           content: 'First council in Jerusalem (49)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '+000064-01-01',
           content: 'Christians were accused of ignite the city (64)'
         }, {
@@ -79,8 +73,7 @@ export function ChurchTimeline() {
           content: 'First Jewish revolt to Roman forces (66-70)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '+000070-01-01',
           content: 'Fall of Jerusalem. \nDestruction of the 2nd Temple by General Titus (70)'
         }, {
@@ -122,8 +115,7 @@ export function ChurchTimeline() {
           content: 'The Shepherd of Hermas (written between 90-150)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '0095-01-01',
           content: 'Book 1st Clement (95/96)'
         }, {
@@ -140,14 +132,12 @@ export function ChurchTimeline() {
           content: 'Council of Nicaea (325)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '336-01-01',
           content: 'Declared Christmas day to be Dic/25th (336)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '380-01-01',
           content: 'Edict of Thessalonica (380)'
         }, {
@@ -188,8 +178,7 @@ export function ChurchTimeline() {
           content: 'Council of Chalcedon (451)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '449-01-01',
           content: 'Letter "Tome" of Leo the Great (449)'
         }, {
@@ -200,8 +189,7 @@ export function ChurchTimeline() {
           content: 'Sack of Rome [by Alaric, Visigoths] (410)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '445-01-01',
           content: 'Edict of papal authority (445)'
         }, {
@@ -212,14 +200,12 @@ export function ChurchTimeline() {
           content: 'Fall of West Roman Empire [by Odoacer] (476)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '452-01-01',
           content: 'Leo the Great liberated Rome from invation of Attila the Hun (452)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '455-01-01',
           content: 'Leo the Great liberated Rome from Vandal king Gaiseric (455)'
         
@@ -353,8 +339,7 @@ export function ChurchTimeline() {
           content: 'Jerome [Author of the Vulgate] (345-420)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '405-01-01',
           content: 'The Vulgate, Latin Bible [by Jerome] (405)'
         }, {
@@ -377,26 +362,22 @@ export function ChurchTimeline() {
           content: 'Gregory the Great [Gregory I] (540-604)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '595-01-01',
           content: 'Gregory the Great negotiate peace with Lombards (595)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '590-01-01',
           content: 'Book "Pastoral Rule" by Gregory the Great (590)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '595-01-01',
           content: 'Book "Moralia in Job" by Gregory the Great (595)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '593-01-01',
           content: 'Book "Dialogues" by Gregory the Great (593)'
         }, {
@@ -407,8 +388,7 @@ export function ChurchTimeline() {
           content: 'Nicholas the Great [Affirmed papal supremacy] (800-867)'
         }, {
           group: 'christians',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '858-01-01',
           content: 'Nicholas the Great became bishop of Rome (858)'
         }, {
@@ -419,8 +399,7 @@ export function ChurchTimeline() {
           content: 'Pope Leo III (750-816)'
         }, {
           group: 'christians',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '795-01-01',
           content: 'Pope Leo III became bishop of Rome (795)'
         }, {
@@ -437,8 +416,7 @@ export function ChurchTimeline() {
           content: 'Charlemagne\'s reign (800-814)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '800-12-25',
           content: 'Charlemagne is coronated as king of Rome by Pope Leo III (800)'
         }, {
@@ -449,14 +427,12 @@ export function ChurchTimeline() {
           content: 'Benedict of Nursia [Father of Western Monasticism] (480-547)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '529-12-25',
           content: 'Monastery of Monte Cassino [founded by Benedict] (529)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '530-01-01',
           content: 'Book "Rule of Benedict" (530)'
         }, {
@@ -497,8 +473,7 @@ export function ChurchTimeline() {
           content: 'King of the Franks (481-511)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '496-01-01',
           content: 'King Clovis I adopted christianity (496)'
         }, {
@@ -515,8 +490,7 @@ export function ChurchTimeline() {
           content: 'Patrick [The Apostle to Ireland] (389-461)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '432-01-01',
           content: 'Patrick went back to Ireland as missionary (432)'
         }, {
@@ -527,8 +501,7 @@ export function ChurchTimeline() {
           content: 'Columba [The Apostle to Scotland] (521-597)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '563-01-01',
           content: 'Columba went to Scotland to evangelize (563)'
         }, {
@@ -539,20 +512,17 @@ export function ChurchTimeline() {
           content: 'Columbanus [The Apostle to the Gauls] (543-615)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '590-01-01',
           content: 'Columbanus went to Merovingian Gaul, Switzerland to evangelize (590)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '663-01-01',
           content: 'Synod of Whitby [English and Roman christianity got united] (663)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '589-01-01',
           content: 'Third Council of Toledo [King Recared renounced Arianism] (589)'
         }, {
@@ -563,14 +533,12 @@ export function ChurchTimeline() {
           content: 'Boniface [The Apostle to the Germans] (675-754)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '718-01-01',
           content: 'Boniface received his papal commission as a missionary (718)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '787-01-01',
           content: 'Second Council of Nicaea [Restoration of icons] (787)'
         }, {
@@ -581,14 +549,12 @@ export function ChurchTimeline() {
           content: 'The iconoclast controversy (726-843)'
          }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '726-01-01',
           content: 'Leo III removed a large Christ icon from Chalke Gate [Starts iconoclas controversy] (726)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '843-01-01',
           content: 'Empress Theodora restored veneration of icons [Ends iconoclast controversy] (843)'
         }, {
@@ -629,26 +595,22 @@ export function ChurchTimeline() {
           content: 'Muhammad [Founder of Islam] (570-632)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '632-01-01',
           content: 'Muhammad\'s death [Marks the rapid rise of Islam] (632)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '732-01-01',
           content: 'Battle of Tours [Charles Martel halted the Muslim invasion into France] (732)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '638-01-01',
           content: 'Muslims invaded Jerusalen [Marked the end of christian domination in the Holy land] (638)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '1054-01-01',
           content: 'The Great Schism [Cardinal Humbert placed a bull of excommunication on Hagia Sphia\'s altar] (1054)'
         }, {
@@ -678,8 +640,7 @@ export function ChurchTimeline() {
           content: 'Acacius of Constantinople (472-489)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '484-01-01',
           content: 'Felix III excommunicated Zeno and Acacius of Constantinople [Started Acacian Schism] (484)'
         }, {
@@ -702,8 +663,7 @@ export function ChurchTimeline() {
           content: 'Pope Hormisdas (450-523)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '519-01-01',
           content: 'Constantinople and Rome signed the Formula of Hormisdas [Ended Acacian Schism] (519)'
         }, {
@@ -738,13 +698,12 @@ export function ChurchTimeline() {
           content: 'Patriarch Photius I of Constantinople (815-893)'
         }, {
           group: 'events',
-          type: 'point',
+          type: 'box',
           start: '863-01-01',
           content: 'Photius got excommunicated by Pope Nicholas I [Start of Photian Schism] (863)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '867-01-01',
           content: 'Photius was deposed by Basil I and Ignatius of Constantinople is reinstated [End of Photian Schism] (867)'
         }, {
@@ -755,8 +714,7 @@ export function ChurchTimeline() {
           content: 'Emperor Basil I (867-886)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '867-01-01',
           content: 'Emperor Michael III got assassinated (867)'
         }, {
@@ -773,14 +731,12 @@ export function ChurchTimeline() {
           content: 'Patriarch 2nd time of Photius I (877-886)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '589-01-01',
           content: 'Third Council of Toledo [First time mentioned Filioque to combar Arianism] (867)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '809-01-01',
           content: 'Synod of Aachen [Filioque is formally adopted in West] (867)'
         }, {
@@ -791,8 +747,7 @@ export function ChurchTimeline() {
           content: 'Emperor Henry II (1014-1020)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '1014-01-01',
           content: 'Inscription of original Nicene creed with Filioque [Marks the official adoption of Filioque in West] (1014)'
         }, {
@@ -809,14 +764,12 @@ export function ChurchTimeline() {
           content: 'Pope Leo IX of Rome (1049-1054)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '1082-01-01',
           content: 'Massacre of latin traders in Constantinople [Deepened the Great Schism] (1082)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '1204-01-01',
           content: 'Constantinople was sacked in fourth crusade [Deepened the Great Schism] (1204)'
         }, {
@@ -863,8 +816,7 @@ export function ChurchTimeline() {
           content: 'Sixth Crusade [Achieved temporary diplimatic success by lost in 1244] (1217-1221)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '1095-01-01',
           content: 'Council of Clermont [Pope Urban II urged to retrieve the Holy Lands and marked the begining of the crusades with phrase "God wills it"] (1095)'
         }, {
@@ -887,26 +839,22 @@ export function ChurchTimeline() {
           content: 'Thomas Aquinas [The Angelic Doctor] (1225-1274)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '1230-01-01',
           content: 'Thomas Aquinas became monk of the Benedictine Abbey of Monte Cassino [at the age of 5th] (1230)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '1239-01-01',
           content: 'Thomas Aquinas went to the university (1239)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '1252-01-01',
           content: 'Thomas Aquinas became professor at university (1252)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '1277-01-01',
           content: 'The University of Paris condemned Thomas Aquinas\' teachings [However, the Council of Trent used them and Pope Leo XIII formally endorsed in 1879] (1277)'
         }, {
@@ -1095,26 +1043,22 @@ export function ChurchTimeline() {
           content: 'Justinian I [Architect of the Byzantine empire and restorer of Rome] (527-565)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '537-01-01',
           content: 'Completion of Hagia Sophia (537)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '532-01-01',
           content: 'Nika riots [Destruction of Constantinople] (537)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '890-01-01',
           content: 'University of Bologna [First university, initially as Law School in 890 and recognized formally in 1155] (890)'
         }, {
           group: 'events',
-          type: 'point',
-          className: 'text-white',
+          type: 'box',
           start: '1150-01-01',
           content: 'University of Paris [Second university] (1150)'
         }, {
@@ -1124,11 +1068,33 @@ export function ChurchTimeline() {
           end: '1300-01-01',
           content: 'Period of High Scholasticism (1150-1300)'
 
+        // Second part  
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '1509-01-01',
+          end: '1547-01-01',
+          imagePath: new URL('../images/KingHenryVIII.jpg', import.meta.url),
+          content: 'English King Henry VIII (1509-1547)',
+          importance: 'English reformation started with him as a political movement to split from Catholic Church'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1509-01-01',
+          content: 'English King Henry VIII married Princess Catherine of Aragon (1509)',
+          importance: 'This marriage was to solidify English King alliance with Spain'
         },
     ];
 
     // Create a DataSet (allows two way data-binding)
-    const items = new DataSet(events.map((item) => Object.assign({}, item, { title: item.content })));
+    const items = new DataSet(events.map((item) => Object.assign(
+      {}, 
+      item, 
+      { 
+        content: (item.imagePath === null || item.imagePath === undefined)? item.content : ''.concat(item.content, '<br />', '<img src="', item.imagePath, '" />'),
+        title: (item.importance === null || item.importance === undefined)? ''.concat('<b>', item.content, '</b>') : ''.concat('<b>', item.content, '</b>', '<br/><br/>', item.importance) 
+      }
+    )));
 
     // Configuration for the Timeline
     const options = {

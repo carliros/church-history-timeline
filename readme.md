@@ -19,3 +19,9 @@ yarn start
 ```
 yarn build
 ```
+
+## How to prepare images
+
+```
+mogrify -resize 32x32 henry.jpg
+```

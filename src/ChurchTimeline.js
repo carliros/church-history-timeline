@@ -1083,6 +1083,138 @@ export function ChurchTimeline() {
           start: '1509-01-01',
           content: 'English King Henry VIII married Princess Catherine of Aragon (1509)',
           importance: 'This marriage was to solidify English King alliance with Spain'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1530-01-01',
+          content: 'English King Henry VIII invoked the 14th Century Statute of Praemunire (1530)',
+          importance: 'It was an excuse to subject the clergy to himself and appoint a new Archbishop to annul his marriage to Catherine'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1533-01-01',
+          content: 'English King Henry VIII got married with Anne Boleyn (1530)',
+          importance: 'Anny Beleyn supported Protestantism and now became Queen. Her child became Queen Elizabeth I'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1534-01-01',
+          content: 'English King Henry VIII declared himself "Supreme Head of the Church of England" in the Act of Supremacy (1534)',
+          importance: 'This officially cuts ties with the Roman pope, changes ecclesiastical authority and dismantled Catholic monastic institutions'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1521-01-01',
+          content: 'English King Henry VIII wrote "Assertio Septem Sacramentorum" [Defense of the seven sacraments] (1521)',
+          importance: 'By writing this he got the title "Defender of faith" by Pope Leo X'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1539-01-01',
+          content: 'English King Henry VIII wrote the "Six Articles" (1539)',
+          importance: 'He reaffirmed Catholic doctrine for the English Church with some differences regarding "Assertio Septem Sacramentorum"'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '1547-01-01',
+          end: '1553-01-01',
+          imagePath: new URL('../images/KingEdwardVI.jpg', import.meta.url),
+          content: 'English King Edward VI (1547-1553)',
+          importance: 'He supported a more Protestant Reformation in England'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1549-01-01',
+          content: 'The Book of Common Prayer (1549)',
+          importance: 'Unified worship practices that reflected Calvinist inflences. Initially published in 1549, updated by Cranmer in 1552, and later edited and revised in 1662'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '1553-01-01',
+          end: '1558-01-01',
+          imagePath: new URL('../images/QueenMaryI.jpg', import.meta.url),
+          content: 'English Queen Mary I (1553-1558)',
+          importance: 'She restored the Church of England to Roman obedience and undo Protestant Reformation'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '1558-01-01',
+          end: '1603-01-01',
+          imagePath: new URL('../images/QueenElizabethI.jpg', import.meta.url),
+          content: 'English Queen Elizabeth I (1558-1603)',
+          importance: 'She stabilized back Protestant Reformation in England with the "via media"'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1559-01-01',
+          content: 'English Queen Elizabeth I renewed the Act of Supremacy with title "Supreme Governor of the Church of England" (1559)',
+          importance: 'This restore ecclesiastical authority but with a different title, Governor instead of Head'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1563-01-01',
+          content: 'English Queen Elizabeth I enacted the Thirty Nine Articles (1563)',
+          importance: 'It is a summary of English doctrine church which was revised and edited during different reigns and culminated in 1571. We can see the via media in the different articles (first 8 are catholic, next 26 are protestants and last 5 are anglican).'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '1603-01-01',
+          end: '1625-01-01',
+          //imagePath: new URL('../images/QueenElizabethI.jpg', import.meta.url),
+          content: 'English King James I (1603-1625)',
+          importance: 'This reign represent the unification of England and Scotland and the rejection of Presbyterian roots (Puritan)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1604-01-01',
+          content: 'King James Bible (1604)',
+          importance: 'King James I autorized this Bible which supports episcopal governance to reject the Genevan Bible which challenged monarchical authority'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '1625-01-01',
+          end: '1649-01-01',
+          //imagePath: new URL('../images/QueenElizabethI.jpg', import.meta.url),
+          content: 'English King Charles I (1625-1649)',
+          importance: 'Promoted Arminian theology and a return to Catholic-like tradition'
+        }, {
+          group: 'events',
+          type: 'range',
+          start: '1642-01-01',
+          end: '1651-01-01',
+          content: 'English Civil War (1642-1651)',
+          importance: 'Resistance of Scotland when King Charles I wanted to impose English liturgy in Scotland. This resulted in the affirmation of Presbyterianism'
+        }, {
+          group: 'events',
+          type: 'range',
+          start: '1643-01-01',
+          end: '1652-01-01',
+          content: 'Westminster Assembly (1643-1652)',
+          importance: 'Culminated the English Civil War and important documents like the Westminster Confession, Short/Large Cathechism and finally affirmed Presbyterian theology in Scotland'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1492-01-01',
+          end: '1536-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'William Tydale (1492-1536)',
+          importance: 'He translated Tyndale Bible from original Greek/Hebrew into English'
+         }, {
+          group: 'events',
+          type: 'box',
+          start: '1525-01-01',
+          imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'First version of Tyndale Bible (1525)',
+          importance: 'Tyndale Bible translated from original Greek/Hebrew into English'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1489-01-01',
+          end: '1556-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Thomas Cranmer (1489-1556)',
+          importance: 'Theologian and martyr of the English reformation under King Henry VIII (affirming his marriage), King Edward (reforming church) and Queen Mary I (persecuted)'
+        
         },
     ];
 

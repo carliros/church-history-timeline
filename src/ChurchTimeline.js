@@ -1162,7 +1162,7 @@ export function ChurchTimeline() {
           end: '1625-01-01',
           //imagePath: new URL('../images/QueenElizabethI.jpg', import.meta.url),
           content: 'English King James I (1603-1625)',
-          importance: 'This reign represent the unification of England and Scotland and the rejection of Presbyterian roots (Puritan)'
+          importance: 'This reign represent the unification of England and Scotland and the rejection of Presbyterian roots (Puritan). He was before Keing of Scotland as James VI. During his reign, the King\'s Confession was endorsed.'
         }, {
           group: 'events',
           type: 'box',
@@ -1199,7 +1199,7 @@ export function ChurchTimeline() {
           //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
           content: 'William Tydale (1492-1536)',
           importance: 'He translated Tyndale Bible from original Greek/Hebrew into English'
-         }, {
+        }, {
           group: 'events',
           type: 'box',
           start: '1525-01-01',
@@ -1214,7 +1214,99 @@ export function ChurchTimeline() {
           //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
           content: 'Thomas Cranmer (1489-1556)',
           importance: 'Theologian and martyr of the English reformation under King Henry VIII (affirming his marriage), King Edward (reforming church) and Queen Mary I (persecuted)'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1504-01-01',
+          end: '1528-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Patric Hamilton (1504-1528)',
+          importance: 'First martyr of the Scottish reformation (at age 24).'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1527-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Patrick\'s Places (1527)',
+          importance: 'It showed key protestant doctrines by Patrick. One important phrase is "The law said, Where is thy righteousness, goodness, and satisfaction? the gospel said, Christ is thy righteousness, thry goodness, and satisfaction".'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1513-01-01',
+          end: '1546-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'George Wishart (1513-1546)',
+          importance: 'He was a contributor to the Scottish reformation, martyr (at age of 33) and mentor of John Knox. When he was being executed he lastly said: "Christian bretheren and sisters, be not affended at the Word of God on account of the tortures you see prepared for me. Love the Word which publisheth salvation, and suffer patiently for the Gospel\'s sake".'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1514-01-01',
+          end: '1572-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'John Knox (1514-1572)',
+          importance: 'Towering figure in the Scottish reformation and the founder of the Presbyterianism'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1558-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'The first blast of the trumpet against the Monstrous Regiment of Women by John Know (1558)',
+          importance: 'This article was controversial during women monarchs like Mary Tudor and Elizabeth I'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1559-01-01',
+          end: '1560-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'The Reformation Rebellion in Scotland (1559-1560)',
+          importance: 'It was a rebellion againts imposition of a return to Catholic influence in Scotland (due to Mary of Guise and Mary Stuart, Queen of Scots). '
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1560-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Treaty of Edinburgh (1560)',
+          importance: 'Marked the end of French influence in Scotland and paved the way to establish Protestaism as national faith, abolish papal authority, and adopt the Scottish Confession of Faith'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1560-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Scottish Confession (1560)',
+          importance: 'Scottish Protestant Consfession of Faith. Contains 25 articles and it is influenced by Calvinism. Created by the Six Johns (John Knox, John Winram, John Spottiswoode, John Willock, John Douglas, and John Row)'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1638-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'National Covenant (1638) [Scottish history]',
+          importance: 'This document was created in defense of the Scottish faith against King Charles I who wanted to change accommodate Enghish liturgica practices in Scotland'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '1542-01-01',
+          end: '1567-01-01',
+          //imagePath: new URL('../images/QueenElizabethI.jpg', import.meta.url),
+          content: 'Scottish Queen Mary Stuart (1542-1567)',
+          importance: 'She tried to make Scotland a Catholic faith again, but failed.'
         
+        // THE CATHOLIC REFORMATION
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1545-01-01',
+          end: '1563-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Council of Trent (1545-1563) [Catholic Reformation]',
+          importance: 'Reaffirmed key Catholic doctrines and addressed the failing ones.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1466-01-01',
+          end: '1536-01-01',
+          imagePath: new URL('../images/Erasmus.jpg', import.meta.url),
+          content: 'Erasmus of Rotterdam (1466-1536)',
+          importance: 'He was humanist and believed we should come back to study the Bible ancient texts. He critiqued The Vulgate Bible which seed new interpretations for Protestant, although he did not like the reform that caused division, he was in favor of an ethical renewal within the Church.'
         },
     ];
 

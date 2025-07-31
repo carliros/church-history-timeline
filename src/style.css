@@ -24,12 +24,24 @@ html {
   color: white !important;
 }
 
+.orange {
+  background-color: orange !important;
+  border-color: orange !important;
+  color: black !important;
+}
+
 .text-white {
   color: white !important;
 }
 
 .vis-item.vis-dot {
-      border-width: 10px;
-      border-radius: 10px;
-    }
+  border-width: 10px;
+  border-radius: 10px;
+}
+
+div.vis-tooltip {
+  white-space: pre-wrap !important;
+  width: 350pt;
+}
+
     

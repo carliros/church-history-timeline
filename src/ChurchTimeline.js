@@ -1289,13 +1289,139 @@ export function ChurchTimeline() {
           //imagePath: new URL('../images/QueenElizabethI.jpg', import.meta.url),
           content: 'Scottish Queen Mary Stuart (1542-1567)',
           importance: 'She tried to make Scotland a Catholic faith again, but failed.'
+
+        // REFORMATION IN GERMANY
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1347-01-01',
+          className: 'red',
+          end: '1351-01-01',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'The Black death (1347-1351)',
+          importance: 'It was a devastating pandemic of bubonic plague that swept through Europe and Asia. It killed 30-50% of the population.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1465-01-01',
+          end: '1519-01-01',
+          imagePath: new URL('../images/Johann-Tetzel.jpg', import.meta.url),
+          content: 'Johann Tetzel (1465-1519)',
+          importance: 'He was a German Dominican friar responsible for selling indulgences during Martin Luther time. He coined the slogan: "As a coin in the coffer rings, a soul from purgatory springs."'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1431-01-01',
+          end: '1503-01-01',
+          imagePath: new URL('../images/PopeAlexanderVI.jpg', import.meta.url),
+          content: 'Pope Alexander VI (1431-1503)',
+          importance: 'He was an example of a pope elected by simony. His papacy was 1492-1503'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1483-01-01',
+          end: '1546-01-01',
+          imagePath: new URL('../images/MartinLuther.jpg', import.meta.url),
+          content: 'Martin Luther (1483-1546)',
+          importance: 'We do not need explanation for him. German Reformation.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1517-10-31',
+          className: 'orange',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'The Ninety-Five Theses (1517)',
+          importance: 'It challenged Roman Church practice of selling indulgences.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1522-01-01',
+          //className: 'orange',
+          imagePath: new URL('../images/LutherBible.jpg', import.meta.url),
+          content: 'The Luther Bible in German (1522-1534)',
+          importance: 'It is Martin Luther\'s translation of the Bible into German. Initially it was only New Testament, and in 1534 it contained both testaments.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1530-01-01',
+          className: 'orange',
+          //imagePath: new URL('../images/LutherBible.jpg', import.meta.url),
+          content: 'The Augsburg Confession (1530)',
+          importance: 'Statements of Lutheran beliefs. Its authors were Martin Luther and Philip Melanchthon. It contains 28 articles'
+        }, {
+          group: 'events',
+          type: 'range',
+          start: '1524-01-01',
+          end: '1525-01-01',
+          className: 'red',
+          //imagePath: new URL('../images/LutherBible.jpg', import.meta.url),
+          content: 'The Peasants\' Revolt (1524-1525)',
+          importance: 'It was a side effect of the Reformation in Germany. Peasants demanded social and economic reforms requesting freedom and less taxes.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1520-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/LutherBible.jpg', import.meta.url),
+          content: 'Book To the Christian Nobility of the German Nation by Luther (1520)',
+          importance: 'The objetive was to break from Roman Church and establish an independent national church. He used the argument of the three walls that protected the church of Rome.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1520-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/LutherBible.jpg', import.meta.url),
+          content: 'Book On the Babylonian Captivity of the Church by Luther (1520)',
+          importance: 'The objective was to critique the Roman Crhuch\'s sacraments or system causing a definitive break with the papacy. At the end, it only recognized three sacraments: baptism, eucharist and penance.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1520-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/LutherBible.jpg', import.meta.url),
+          content: 'Book The Freedom of a Christian by Luther (1520)',
+          importance: 'The objective was to clarify his theological views while addressing Pope Leo X. His claim was that his doctrines were not new innovations but a return to the pure word of God. He presents core doctrines like justification by faith alone, priesthood of all believers and the role of the good works as response to grace.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1475-01-01',
+          end: '1521-01-01',
+          imagePath: new URL('../images/PopeLeoX.jpg', import.meta.url),
+          content: 'Pope Leo X (1475-1521)',
+          importance: 'He is know by the selling of indulgences to reconstruct St. Peter\'s Basilica. His papacy was 1513-1521.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1497-01-01',
+          end: '1560-01-01',
+          imagePath: new URL('../images/PhilipMelanchthon.jpg', import.meta.url),
+          content: 'Philip Melanchthon (1497-1560)',
+          importance: 'Successor of Martin Luther.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1491-01-01',
+          end: '1551-01-01',
+          imagePath: new URL('../images/Martin Bucer', import.meta.url),
+          content: 'Martin Bucer (1491-1551)',
+          importance: 'He worked on uniting Protestant groups, including Luther, Zwingli and the radical Anabaptists. He conducted the Marburg Colloquy with Luther and Zwingli in 1529. He also contributed to the Book of Common Prayer of England with Thomas Cranmer.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1550-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/LutherBible.jpg', import.meta.url),
+          content: 'Book De Regno Christi by Martin Bucer (1550)',
+          importance: 'This book hightlights that in the Kingdom of Christ on earth there should be cooperation of church and state'
         
+        // REFORMATION IN SWITZERLAND, NETHERLANDS, FRANCE AND ANABAPTIST MOVEMENT
         // THE CATHOLIC REFORMATION
         }, {
           group: 'events',
           type: 'box',
           start: '1545-01-01',
           end: '1563-01-01',
+          className: 'green',
           //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
           content: 'Council of Trent (1545-1563) [Catholic Reformation]',
           importance: 'Reaffirmed key Catholic doctrines and addressed the failing ones.'

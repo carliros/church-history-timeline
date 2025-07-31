@@ -1402,7 +1402,7 @@ export function ChurchTimeline() {
           type: 'range',
           start: '1491-01-01',
           end: '1551-01-01',
-          imagePath: new URL('../images/Martin Bucer', import.meta.url),
+          imagePath: new URL('../images/MartinBucer.jpg', import.meta.url),
           content: 'Martin Bucer (1491-1551)',
           importance: 'He worked on uniting Protestant groups, including Luther, Zwingli and the radical Anabaptists. He conducted the Marburg Colloquy with Luther and Zwingli in 1529. He also contributed to the Book of Common Prayer of England with Thomas Cranmer.'
         }, {
@@ -1415,6 +1415,112 @@ export function ChurchTimeline() {
           importance: 'This book hightlights that in the Kingdom of Christ on earth there should be cooperation of church and state'
         
         // REFORMATION IN SWITZERLAND, NETHERLANDS, FRANCE AND ANABAPTIST MOVEMENT
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1484-01-01',
+          end: '1531-01-01',
+          imagePath: new URL('../images/UlrichZwingli.jpg', import.meta.url),
+          content: 'Ulrich Zwingli (1484-1531) [Reformer of Zurich]',
+          importance: 'He started reformation in Zurich, Switzerland. He was more radical than Luther and reject the mass as sacrifical, the purgatory, the veneration of saints and the sale of indulgences. He influenced John Calvin.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1523-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/LutherBible.jpg', import.meta.url),
+          content: 'Sixty-Seven Articles by Ulrich Zwingli (1523)',
+          importance: 'This is similar to Luther\'s theses, so it contained concise points of for the Swiss Reformation and was prepared to the First Zurich Disputation to discuss reformation ideas.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1529-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/LutherBible.jpg', import.meta.url),
+          content: 'The Marburg Colloquy (1529)',
+          importance: 'It tried to reconcile doctrinal points mainly between Martin Luther and Ulrich Zwingli, but it also included other reformers and theologians. Of the 15 articles discussed, 14 were agreed, and only one was in question, which was the Eucarist or Lord\'s Supper. This was organized by Philip of Hesse mainly guided by political interests.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1504-01-01',
+          end: '1575-01-01',
+          //imagePath: new URL('../images/UlrichZwingli.jpg', import.meta.url),
+          content: 'Heinrich Bullinger (1504-1575) [Reformer of Zurich]',
+          importance: 'He was the successor of Ulrich Zwingli'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1509-01-01',
+          end: '1564-01-01',
+          imagePath: new URL('../images/JohnCalvin.png', import.meta.url),
+          content: 'John Calvin (1509-1564) [Reformer of Geneva]',
+          importance: 'He is a Frech reformer that centered his work on Geneva, Switzerland, from there it expanded calvinism to the world. His reformed doctrine emphasizes the <ul><li> Sovereignity of God,</li> <li>Predestination, </li> <li> Authority of Scripture and </li> <li> Necesity of Church discipline</li></ul>'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1536-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/LutherBible.jpg', import.meta.url),
+          content: 'Book Institutes of the Christian Religion by John Calvin (1536)',
+          importance: 'It is a systematic introduction of Christian doctrine in fourth books, initially published in 1536.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1519-01-01',
+          end: '1605-01-01',
+          imagePath: new URL('../images/JohnCalvin.png', import.meta.url),
+          content: 'Theodore Beza (1519-1605)',
+          importance: 'After he converted to reformed faith, the defended calvinist doctrine. He founded the Geneva Academy in 1559 and produced a Latin and Greek translation of the New Testament which became the basis for the Geneva Bible.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1536-01-01',
+          //className: 'red',
+          imagePath: new URL('../images/Geneva_Bible.jpg', import.meta.url),
+          content: 'Geneva Bible (1557)',
+          importance: 'It is an English Bible produced in Geneva by people who fled from England into Geneva during the reign of Mary I who restored Catholicism in England. Among the main collaborators were Willian Whittingham who worked on the New Testament published in 1557 and Anthony Gilby who worked in Old Testament published in 1560.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1560-01-01',
+          end: '1609-01-01',
+          imagePath: new URL('../images/JacobusArminius.jpg', import.meta.url),
+          content: 'Jacobus Arminius (1560-1609) [Dutch]',
+          importance: 'He is a Dutch theologian who questioned predestination and election from Calvin\'s doctrine. His doctrine expanded to Europe and was adopted by John Wesley (Methodist movement).'
+        }, {
+          group: 'events',
+          type: 'range',
+          start: '1618-01-01',
+          end: '1619-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/Geneva_Bible.jpg', import.meta.url),
+          content: 'The Synod of Dort (1618-1619) [The Netherlands]',
+          importance: 'It established calvinism as the state religion in The Netherlands (but maintained religious tolerance as well) and rejected arminianism. In detail it addressed the controversy of predestination and advocated for conditional election and free will.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1498-01-01',
+          end: '1526-01-01',
+          imagePath: new URL('../images/ConradGrebel.png', import.meta.url),
+          content: 'Conrad Grebel (1498-1526) [Anabaptist in Switzerland]',
+          importance: 'He was the founder of the Anabaptist movement Swiss Bretheren. He rejected infant baptism. His doctrine emphasized <ul><li>Church-State separation</li> <li>Religious liberty</li> <li>Individual conscience</li></ul>'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1480-01-01',
+          end: '1528-01-01',
+          imagePath: new URL('../images/BalthasarHubmaier.png', import.meta.url),
+          content: 'Balthasar Hubmaier (1480-1528) [Defender of Baptism]',
+          importance: 'He was a prominent theologian that argued that baptism should be administered only those of profesed faith in Christ. He also rejected interference of state in faith matter. He influenced arminisnism.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1496-01-01',
+          end: '1561-01-01',
+          imagePath: new URL('../images/BalthasarHubmaier.png', import.meta.url),
+          content: 'Menno Simons (1496-1561) [Founder of Mennonites]',
+          importance: 'He is founder of Mennonites, a Anabaptist movement. Core doctrines are non-violence, believer\'s baptism and Christ centered community life.'
+
         // THE CATHOLIC REFORMATION
         }, {
           group: 'events',

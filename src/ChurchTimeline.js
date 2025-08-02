@@ -1523,6 +1523,30 @@ export function ChurchTimeline() {
 
         // THE CATHOLIC REFORMATION
         }, {
+          group: 'christians',
+          type: 'range',
+          start: '1434-01-01',
+          end: '1549-01-01',
+          imagePath: new URL('../images/PopePaulIII.jpg', import.meta.url),
+          content: 'Pope Paul III (1468-1549)',
+          importance: 'Pope during 1534-1549. He started the Council of Trent in 1545. He accepted new religious orders like the Jesuits. He addressed internal corruption and simony in the Catholic church.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1504-01-01',
+          end: '1572-01-01',
+          imagePath: new URL('../images/PopePiusV.jpg', import.meta.url),
+          content: 'Pope Pius V (1504-1572)',
+          importance: 'Pope during 1566-1572. He is known as the implementator of the Council of Trent.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1504-01-01',
+          end: '1572-01-01',
+          //imagePath: new URL('../images/PopePiusV.jpg', import.meta.url),
+          content: 'Johann Maier Eck (1486-1543)',
+          importance: 'He is a German theologian best known as Martin Luther\'s adversary. He challenged Luther\'s doctrines to defend Catholic faith.'
+        }, {
           group: 'events',
           type: 'box',
           start: '1545-01-01',

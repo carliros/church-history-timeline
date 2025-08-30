@@ -17,6 +17,7 @@ yarn start
 ## How to build
 
 ```
+yarn install
 yarn build
 ```
 

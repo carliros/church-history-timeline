@@ -1468,7 +1468,7 @@ export function ChurchTimeline() {
           type: 'range',
           start: '1519-01-01',
           end: '1605-01-01',
-          imagePath: new URL('../images/JohnCalvin.png', import.meta.url),
+          imagePath: new URL('../images/TheodoreBeza.jpg', import.meta.url),
           content: 'Theodore Beza (1519-1605)',
           importance: 'After he converted to reformed faith, the defended calvinist doctrine. He founded the Geneva Academy in 1559 and produced a Latin and Greek translation of the New Testament which became the basis for the Geneva Bible.'
         }, {
@@ -1520,6 +1520,127 @@ export function ChurchTimeline() {
           imagePath: new URL('../images/BalthasarHubmaier.png', import.meta.url),
           content: 'Menno Simons (1496-1561) [Founder of Mennonites]',
           importance: 'He is founder of Mennonites, a Anabaptist movement. Core doctrines are non-violence, believer\'s baptism and Christ centered community life.'
+        // PURITANS
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '1625-01-01',
+          end: '1649-01-01',
+          imagePath: new URL('../images/King_Charles_I_England.jpg', import.meta.url),
+          content: 'King Charles I (1625-1649) [England]',
+          importance: 'He was son of James I and followed Arminian thelogy in England which caused many puritans to seek reguge abroad'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '1660-01-01',
+          end: '1685-01-01',
+          imagePath: new URL('../images/King_Charles_II.jpg', import.meta.url),
+          content: 'King Charles I (1660-1685) [England]',
+          importance: 'He came back to England as king and restored the Church of England and persecuted puritans.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1662-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/Geneva_Bible.jpg', import.meta.url),
+          content: 'The Act of Uniformity (1662) [Church of England]',
+          importance: 'It restored the Church of England practices in England and ejected many puritans pastors in churches.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1620-01-01',
+          //className: 'red',
+          imagePath: new URL('../images/Myflower.jpg', import.meta.url),
+          content: 'The Mayflower ship (1620)',
+          importance: 'This ship transported Puritans, incluing Pilgrins, to United States of America. They landed in Cape Cod and established the Plymouth Colony'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1647-01-01',
+          //className: 'red',
+          imagePath: new URL('../images/Westminster_Confession_of_Faith.jpg', import.meta.url),
+          content: 'The Westminster Confession of Faith (1647)',
+          importance: 'The result of the Westminster Assembly build for the reformation of the Church of England. It was directed by puritans and presbyterians. It was the base for other confessions of faith'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1558-01-01',
+          end: '1602-01-01',
+          imagePath: new URL('../images/WilliamPerkins.jpg', import.meta.url),
+          content: 'Willian Perkins (1558-1602) [English Puritan]',
+          importance: 'One of the initial puritans in England, defended double predestination and great preacher.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1616-01-01',
+          end: '1683-01-01',
+          imagePath: new URL('../images/JohnOwen.jpg', import.meta.url),
+          content: 'John Owen (1616-1683) [English Puritan]',
+          importance: 'He was a good theologian of Puritanism during King Charles I and Charles II. Supported John Bunyan.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1615-01-01',
+          end: '1691-01-01',
+          imagePath: new URL('../images/RichardBaxter.jpg', import.meta.url),
+          content: 'Richard Baxter (1615-1691) [English Puritan]',
+          importance: 'He is known by being a good pastor and writer theologian. He supported a middle position between Calvisnim and Arminianism.'
+         }, {
+          group: 'events',
+          type: 'box',
+          start: '1672-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/Westminster_Confession_of_Faith', import.meta.url),
+          content: 'Declaration of Indulgence by King Charles II (1672)',
+          importance: 'It attempted to extend religious liberty to Protestants nonconformist and catholics in England by King Charles II. With this some puritans like Thomas Watson were able to preach publicly.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1620-01-01',
+          end: '1686-01-01',
+          imagePath: new URL('../images/ThomasWatson.jpg', import.meta.url),
+          content: 'Thomas Watson (1620-1686) [English Puritan]',
+          importance: 'Know by his good preaching and writings even during Charles II\'s persecution.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1628-01-01',
+          end: '1688-01-01',
+          imagePath: new URL('../images/JohnBunyan.jpg', import.meta.url),
+          content: 'John Bunyan (1628-1688) [English Puritan]',
+          importance: 'Lay preacher and very good writer, author of The Pilgrim\'s Progress.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1586-01-01',
+          end: '1647-01-01',
+          imagePath: new URL('../images/ThomasHooker.jpg', import.meta.url),
+          content: 'Thomas Hooker (1586-1647) [New England Puritan]',
+          importance: 'He was an english puritan that went to Massachusetts, US and later to Connecticut. He advocated religious and political liberty in favor of congragationalism. He helped to shape the American democratic principles.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1588-01-01',
+          end: '1649-01-01',
+          imagePath: new URL('../images/JohnWinthrop.jpg', import.meta.url),
+          content: 'John Winthrop (1588-1649) [New England Puritan]',
+          importance: 'He was part of the Mayflower and envision the city of Massachusetts with puritan faith. He was critiqued of less democratic policies.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1603-01-01',
+          end: '1683-01-01',
+          imagePath: new URL('../images/RogerWilliams.jpg', import.meta.url),
+          content: 'Roger Williams (1603-1683) [New England Puritan]',
+          importance: 'He was the founder of Rhode Island, known by his good relationship and just treatment to native Americans and advocate for religious and polical liberty. Co-Founder of the First Baptist church in USA with Generalist baptist principles.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1663-01-01',
+          end: '1728-01-01',
+          imagePath: new URL('../images/CottonMather.jpg', import.meta.url),
+          content: 'John Winthrop (1663-1728) [New England Puritan]',
+          importance: 'He is a gifted scholar who emphasized the science and puritan faith. He was involved in the Salem Witch trials of 1692.'
 
         // THE CATHOLIC REFORMATION
         }, {

@@ -1684,6 +1684,171 @@ export function ChurchTimeline() {
           imagePath: new URL('../images/Erasmus.jpg', import.meta.url),
           content: 'Erasmus of Rotterdam (1466-1536)',
           importance: 'He was humanist and believed we should come back to study the Bible ancient texts. He critiqued The Vulgate Bible which seed new interpretations for Protestant, although he did not like the reform that caused division, he was in favor of an ethical renewal within the Church.'
+
+        // Chapter 9
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1735-01-01',
+          end: '1811-01-01',
+          imagePath: new URL('../images/Robert_Raikes.jpg', import.meta.url),
+          content: 'Robert Raikes (1735-1811)',
+          importance: 'He is best know as the founder of Sunday Schools in England during Industrial revolution in which children were not able to go to school because they were working during the week. This is considered a social reform.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1870-01-01',
+          //className: 'green',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Elementary Education Act (1870)',
+          importance: 'The government of England established a elementary education for children 5-12 which offered free public school and non-denominatonal educaton. It was build on the foundation of Sunday Schools of Robert Raikes.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1790-01-01',
+          end: '1840-01-01',
+          className: 'yellow-green',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Clapham Sect (1790-1840)',
+          importance: 'It was a group of wealthy Evangelical Anglicans who contributed in social reform in England. Among the prominent leaders is William Wilberforce.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1807-01-01',
+          //className: 'green',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Slave Trade Act in England (1807)',
+          importance: 'Slave trade became illegal in Englang. William Wilberforce contributed toward it.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1833-01-01',
+          //className: 'green',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Slavery Abolition Act in England (1833)',
+          importance: 'Slavery was prohibited in England because of this. It was not just illegal the trade, but having slaves as well.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1787-01-01',
+          //className: 'green',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Colony of Sierra Leone (1787)',
+          importance: 'This place is important because it provided a haven for freed slaves. It was founded by the Chapham Sect in 1787.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1759-01-01',
+          end: '1833-01-01',
+          imagePath: new URL('../images/William_wilberforce.jpg', import.meta.url),
+          content: 'William Wilberforce (1759-1833)',
+          importance: 'He was a lawyer who tirelessly worked on the abolishion of slave trade and slavery which he made in 1807 and 1833 (just before he died). The was one of the leaders of the Clapham Sect in England.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1780-01-01',
+          end: '1847-01-01',
+          imagePath: new URL('../images/ThomasChalmers.png', import.meta.url),
+          content: 'Thomas Chalmers [Scotland] (1780-1847)',
+          importance: 'He is well known for his innovative, community-based approach to poor relief called St. John\'s Experiment. That emphasized localized charity, systematic visitation and education. That was his social reform.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1805-01-01',
+          end: '1898-01-01',
+          imagePath: new URL('../images/George_Muller.jpg', import.meta.url),
+          content: 'George Muller [England] (1805-1898)',
+          importance: 'He was a German who went England and stayed there because he saw children were left homeless and confined to workhome. So he founded Orphanages with his wife. He never requested any money but received a lot of funding just by prayer. He is Calvinist. And this is his social reform.'
+        }, {
+          group: 'emperors',
+          type: 'range',
+          start: '1837-01-01',
+          end: '1901-01-01',
+          imagePath: new URL('../images/Queen_Victoria.jpg', import.meta.url),
+          content: 'Queen Victoria[United Kindom] (1837-1901)',
+          importance: 'She was queen of United Kingdom during a time where many important events happened in Europe. This period is known as Victorian era.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1834-01-01',
+          end: '1892-01-01',
+          imagePath: new URL('../images/Charles_Haddon_Spurgeon.jpg', import.meta.url),
+          content: 'Charles Spurgeon (The prince of preachers) [England] (1834-1892)',
+          importance: 'He is well know by his good preaching. But he also contributed to social reform by funding some orphanages and almshouses and preparing pastors with his Spurgeon\' College.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1887-01-01',
+          end: '1888-01-01',
+          //className: 'green',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'Downgrade Controversy (1887-1888)',
+          importance: 'It is important because Spurgeon denounced orthodox laxity in England Baptist Union, which ended with his withdrawal of the union.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1820-01-01',
+          end: '1910-01-01',
+          imagePath: new URL('../images/Florence_Nightingale.jpg', import.meta.url),
+          content: 'Florence Nightingale (A lady with a lamp) [England] (1820-1910)',
+          importance: 'She is well know by his great application of his profession as a nurse into military camps in the middle of a war, reducing the mortality from 40% to 2%, that was her social reform. May 12, the day of her birthday, is celebrated as International Nurses Day.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1821-01-01',
+          end: '1905-01-01',
+          imagePath: new URL('../images/George_Williams.jpg', import.meta.url),
+          content: 'Geoge Williams [England] (1821-1905)',
+          importance: 'He is well known by founding the Young Men\'s Christian Association (YMCA), an international ministry the focused on the improvement of the spiritual condition of the your men. That was his social reform.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1829-01-01',
+          end: '1912-01-01',
+          imagePath: new URL('../images/William_Catherine_Booth.jpeg', import.meta.url),
+          content: 'William Booth [England] (1829-1912)',
+          importance: 'He and his wife Catherine are well know by founding the Salvation Army, a military movement that focused on the Gospel proclamation and acts of mercy to poor and marginalized. Their moto: "Soup, Soap and Salvation".'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1833-01-01',
+          //className: 'green',
+          //imagePath: new URL('../images/TyndaleBible.jpg', import.meta.url),
+          content: 'The Oxford Movement (Tractarians) (1833)',
+          importance: 'This movement tried to restore Catholic practices into the Church of England, because they claimed the Church of England followed the Apostolic succession. At the end, they created a movement called Anglo-Catholicism.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1801-01-01',
+          end: '1890-01-01',
+          className: 'red',
+          imagePath: new URL('../images/John-Henry-Newman.gif', import.meta.url),
+          content: 'John Henry Newman [England] (1801-1890)',
+          importance: 'He is well known by being the main writer of the Oxford Movement tracks. In 1841, he wrote a track to say that the 39 articles of the Church of England can be interpreted in consistent way with Catholic doctrine. That generated an scandal in public and led Newman to reject the Church of England to become or convert into Catholicism.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1797-01-01',
+          end: '1883-01-01',
+          imagePath: new URL('../images/Sojourner_Truth.jpg', import.meta.url),
+          content: 'Sojourner Truth [USA] (1797-1883)',
+          importance: 'She is an African American abolitionist and woman\' right activist After she got free from slavary, she figth against that and defended other women. She is a social reformer.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1821-01-01',
+          end: '1912-01-01',
+          imagePath: new URL('../images/ClaraBarton.jpg', import.meta.url),
+          content: 'Clara Barton [USA] (1821-1912)',
+          importance: 'She is well known by starting American Red Cross. She brought it from Europe and founded in USA. She is also known by serving in the Americal Civil war as nurse to soldiers. Her service to soldiers was a social reform.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1880-01-01',
+          end: '1968-01-01',
+          imagePath: new URL('../images/Helen_Keller.jpg', import.meta.url),
+          content: 'Helen Keller [USA] (1880-1968)',
+          importance: 'She was deaf and blind but learned to read and communicate in braille. She completer a bachelor degree and contributed to the rights of people with disabilities.'
         },
     ];
 

@@ -24,7 +24,23 @@ html {
   border-color: green !important;
 }
 
+.orange {
+  color: #000 !important;
+  background-color: orange !important;
+  border-color: orange !important;
+}
+
 .text-white {
   color: #fff !important;
+}
+
+.vis-item.vis-dot {
+  border-width: 10px;
+  border-radius: 10px;
+}
+
+div.vis-tooltip {
+  width: 350pt;
+  white-space: pre-wrap !important;
 }
 /*# sourceMappingURL=church-history-timeline.2cdaf7bc.css.map */

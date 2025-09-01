@@ -1685,7 +1685,212 @@ export function ChurchTimeline() {
           content: 'Erasmus of Rotterdam (1466-1536)',
           importance: 'He was humanist and believed we should come back to study the Bible ancient texts. He critiqued The Vulgate Bible which seed new interpretations for Protestant, although he did not like the reform that caused division, he was in favor of an ethical renewal within the Church.'
 
-        // Chapter 9
+        // Chapter 6: enlightenment and pietism
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1596-01-01',
+          end: '1650-01-01',
+          imagePath: new URL('../images/Rene_Descartes.jpg', import.meta.url),
+          content: 'René Descartes [Enlightenment] (1596-1650)',
+          importance: 'He was a Roman Catholic who challenged Christian thought by prioritizing reason and doubt. His famous phrase: "I think, therefore I am". He contributed to mathematics in the field of algebra and geometry.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1632-01-01',
+          end: '1677-01-01',
+          imagePath: new URL('../images/Spinoza.jpg', import.meta.url),
+          content: 'Baruch Spinoza [Enlightenment] (1632-1677)',
+          importance: 'He was initially a Jewish and proposed a worldview that was pantheistic (finds God everywhere). He critiqued Scripture\' authority. He is considered as a forerunner of Enlightenment and modernity.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1561-01-01',
+          end: '1626-01-01',
+          imagePath: new URL('../images/Francis_Bacon.jpg', import.meta.url),
+          content: 'Francis Bacon [English Enlightenment] (1561-1626)',
+          importance: 'He contributed into empirical methodology and paved the way for Scientific Revolution. He had a vision to use science as a tool to improve society.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1642-01-01',
+          end: '1727-01-01',
+          imagePath: new URL('../images/Isaac_Newton.jpg', import.meta.url),
+          content: 'Isaac Newton [English Enlightenment] (1642-1727)',
+          importance: 'He made great contributions into science (physics, laws and mathematics). He rejected the doctrin of Trinity. He is Deist.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1632-01-01',
+          end: '1704-01-01',
+          imagePath: new URL('../images/John_Locke.jpg', import.meta.url),
+          content: 'John Locke [English Enlightenment] (1632-1704)',
+          importance: 'He is know as father of empirism because of his practice of observation. Instead of rejecting divinity, is encourage to use reasoning to verify revelation. He rejected the doctrine of Trinity.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1711-01-01',
+          end: '1776-01-01',
+          imagePath: new URL('../images/David_Hume.jpg', import.meta.url),
+          content: 'David Hume [Scottish Enlightenment] (1711-1776)',
+          importance: 'He is know as skepticist and empirist. He questioned God\'s power with the existing of evil. He rejected Christian doctrines and miracles.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1723-01-01',
+          end: '1790-01-01',
+          imagePath: new URL('../images/Adam_Smith.jpg', import.meta.url),
+          content: 'Adam Smith [Scottish Enlightenment] (1723-1790)',
+          importance: 'He is well know by his book "The Wealth of Nations" which is a classic book on economics and capitalism which encourage competision to improve society and free-market.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1694-01-01',
+          end: '1778-01-01',
+          imagePath: new URL('../images/Voltaire.jpg', import.meta.url),
+          content: 'Voltaire [French Enlightenment] (1694-1778)',
+          importance: 'He is Deist who considers Christianity as superstition and rejected his doctrines and miracles. He is father of French Enlightenment.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1713-01-01',
+          end: '1784-01-01',
+          imagePath: new URL('../images/Denis_Diderot.jpg', import.meta.url),
+          content: 'Denis Diderot [French Enlightenment] (1713-1784)',
+          importance: 'He created the Encyclopedie in which he emphasized his deistic ideas.'
+        }, {
+          group: 'events',
+          type: 'box',
+          start: '1789-01-01',
+          end: '1799-01-01',
+          //className: 'red',
+          //imagePath: new URL('../images/Westminster_Confession_of_Faith', import.meta.url),
+          content: 'French Revolution (1789-1799)',
+          importance: 'It is a time where people rejected the old social and political order along with rejecting Catholic doctrines.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1724-01-01',
+          end: '1804-01-01',
+          imagePath: new URL('../images/Immanuel_Kant.jpg', import.meta.url),
+          content: 'Immanuel Kant [German Enlightenment] (1724-1804)',
+          importance: 'He is well know by his critique to religion emphasizing empirism and reason. But contrasted faith and reason by prefering faith in divine matters.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1635-01-01',
+          end: '1705-01-01',
+          imagePath: new URL('../images/Philipp_Jakob_Spener.jpg', import.meta.url),
+          content: 'Philipp Jakob Spener [German Pietism] (1635-1705)',
+          importance: 'He is know as Father of German Pietism because around 1670 he started a group for Bible study, prayer and mutual edification and then he published his book Pia Desideria in the Lutheran denomination.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1663-01-01',
+          end: '1727-01-01',
+          imagePath: new URL('../images/August-Hermann-Francke.jpg', import.meta.url),
+          content: 'August Hermann Francke [German Pietism] (1663-1727)',
+          importance: 'He is know as founder of the Halle Institutions that teach pietism. He is also know by his deep questions like "What does Christ mean to you?".'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1700-01-01',
+          end: '1760-01-01',
+          imagePath: new URL('../images/Nikolaus_L_v_Zinzendorf.jpg', import.meta.url),
+          content: 'Count Nicolaus Ludwig von Zinzendorf [German Pietism] (1700-1760)',
+          importance: 'He is well know by his Moravian defense and contribution.'
+
+        // Chapter 7: Evangelical revival
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1703-01-01',
+          end: '1791-01-01',
+          imagePath: new URL('../images/John_Wesley.jpg', import.meta.url),
+          content: 'John Wesley [Evangelical Revival in England] (1703-1791)',
+          importance: 'Father of Methodist movement. He made good effort in preaching in many places, mainly public and homes. He said "The world is my parish".'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1707-01-01',
+          end: '1788-01-01',
+          imagePath: new URL('../images/Charles_Wesley.jpg', import.meta.url),
+          content: 'Charles Wesley [Evangelical Revival in England] (1707-1788)',
+          importance: 'Brother of John Wesley and hymn writer. Methodis but aligned to the Church of England.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1714-01-01',
+          end: '1770-01-01',
+          imagePath: new URL('../images/George_Whitefield.jpg', import.meta.url),
+          content: 'George Whitefield [Evangelical Revival in England] (1714-1770)',
+          importance: 'Know as a very good preacher in public. His ministry included USA as well where he ignited evangelical revival.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1703-01-01',
+          end: '1758-01-01',
+          imagePath: new URL('../images/Jonathan_Edwards.jpg', import.meta.url),
+          content: 'Jonathan Edwards [Evangelical Revival in USA] (1703-1758)',
+          importance: 'He is know as leading the First Greak Awakening in USA. He holds a Calvinistic doctrine.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1792-01-01',
+          end: '1875-01-01',
+          imagePath: new URL('../images/Charles_g_finney.jpg', import.meta.url),
+          content: 'Charles Finney [Evangelical Revival in USA] (1792-1875)',
+          importance: 'He is know as leading the Second Greak Awakening in USA. He holds an Arminian doctrine.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1761-01-01',
+          end: '1834-01-01',
+          imagePath: new URL('../images/William_Carey.jpg', import.meta.url),
+          content: 'William Carey [Modern Missions] (1761-1834)',
+          importance: 'He is known as Father of Modern mission. He was a Baptis missionary who went to India.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1813-01-01',
+          end: '1873-01-01',
+          imagePath: new URL('../images/David_Livingstone.jpg', import.meta.url),
+          content: 'David Livingstone [Modern Missions] (1813-1873)',
+          importance: 'He was a doctor, missionary and explored in Africa.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1788-01-01',
+          end: '1850-01-01',
+          imagePath: new URL('../images/Adoniram_Judson.jpg', import.meta.url),
+          content: 'Adoniran Judson [Modern Missions] (1788-1850)',
+          importance: 'He is considered the first protestant missionary from USA. He went to Burma.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1782-01-01',
+          end: '1834-01-01',
+          imagePath: new URL('../images/Robert_Morrison.jpg', import.meta.url),
+          content: 'Robert Morrison [Modern Missions] (1732-1834)',
+          importance: 'He is considered the first protestant missionary from England who went to China.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1832-01-01',
+          end: '1905-01-01',
+          imagePath: new URL('../images/HudsonTaylor.jpg', import.meta.url),
+          content: 'Hudson Taylor [Modern Missions] (1832-1905)',
+          importance: 'He was a missionary to China. He founded the China Inland Mission (CIM) that was independent of denomination. He trusted in God for its finances.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1867-01-01',
+          end: '1951-01-01',
+          imagePath: new URL('../images/Amy_Carmichael.jpg', import.meta.url),
+          content: 'Amy Carmichael [Modern Missions] (1867-1951)',
+          importance: 'She was a missionary to India and focused on rescuing children who were prostituted in Hindu temples. She founded the Dohnavur Fellowship to refuge children.'
+
+        // Chapter 8: social reform
         }, {
           group: 'christians',
           type: 'range',

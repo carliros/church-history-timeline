@@ -21,6 +21,9 @@ yarn install
 yarn build
 ```
 
+And then copy all content from `dist/` into `docs/` 
+and replace all paths that start with `"/` to `"./` to make it work in git pages.
+
 ## How to prepare images
 
 ```

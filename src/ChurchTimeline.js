@@ -2054,6 +2054,47 @@ export function ChurchTimeline() {
           imagePath: new URL('../images/Helen_Keller.jpg', import.meta.url),
           content: 'Helen Keller [USA] (1880-1968)',
           importance: 'She was deaf and blind but learned to read and communicate in braille. She completer a bachelor degree and contributed to the rights of people with disabilities.'
+        // Chapter 9: Liberal Theology and Neo-Calvinism
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1768-01-01',
+          end: '1834-01-01',
+          imagePath: new URL('../images/Friedrich_Schleiermacher.jpg', import.meta.url),
+          content: 'Friedrich Schleirmacher [Liberal Theology] (1768-1834)',
+          importance: 'He is know as father of model Liberal Theology. He focuses on religious experience (feeling) as a core faith and dependence of God.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1822-01-01',
+          end: '1889-01-01',
+          imagePath: new URL('../images/AlbrechtRitschl.jpg', import.meta.url),
+          content: 'Albrecht Ritschl [Liberal Theology] (1822-1889)',
+          importance: 'Focused on practical religion based on the moral and ethical Jesus and the future heaven being on earth. He rejected traditional doctrine.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1851-01-01',
+          end: '1930-01-01',
+          imagePath: new URL('../images/Adolf_Harnack.jpg', import.meta.url),
+          content: 'Adolf von Harnack [Liberal Theology] (1851-1930)',
+          importance: 'He rejected Christian dogmas because of Greek influence and accepted only the historical teachings of Jesus without divinity and miracles.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1837-01-01',
+          end: '1920-01-01',
+          imagePath: new URL('../images/Abraham_Kuyper_1905.jpg', import.meta.url),
+          content: 'Abraham Kuyper [Neo-Calvinism] (1837-1920)',
+          importance: 'He is know as Father of Neo-Calvinism who applied and contributed to many spheres in life and society.'
+        }, {
+          group: 'christians',
+          type: 'range',
+          start: '1854-01-01',
+          end: '1921-01-01',
+          imagePath: new URL('../images/HermanBavinckBig.jpg', import.meta.url),
+          content: 'Herman Bavinck [Neo-Calvinism] (1854-1921)',
+          importance: 'He is well know as the one who systematized the doctrines of Neo-Calvinism in his book "Reformed Dogmatics".'
         },
     ];
 
